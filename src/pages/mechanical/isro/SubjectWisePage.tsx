@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import ComingSoon from '../../../components/ComingSoon';
+import { fetchWithCache } from '../../../utils/cache';
+import { Syllabus } from '../../../types';
 
 interface Subject {
     name: string;
@@ -12,8 +13,11 @@ const SubjectWisePage: React.FC = () => {
   useEffect(() => {
     const fetchSyllabus = async () => {
       try {
-        const dataModule = await import('../../../data/mechanical/syllabus.json');
-        setSubjects(dataModule.default);
+        // Fetch from the public directory
+        const data: Syllabus = await fetchWithCache('/data/mechanical/syllabus.json');
+        if (data && data.subjects) {
+          setSubjects(data.subjects);
+        }
       } catch (error) {
         console.error("Failed to load subjects", error);
       }

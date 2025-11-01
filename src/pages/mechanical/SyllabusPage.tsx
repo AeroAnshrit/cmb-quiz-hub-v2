@@ -1,22 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { fetchWithCache } from '../../utils/cache';
+import { Syllabus } from '../../types';
 
-interface Subject {
-    name: string;
-    topics: string;
-}
 
 const SyllabusPage: React.FC = () => {
-  const [syllabus, setSyllabus] = useState<Subject[]>([]);
+  const [syllabus, setSyllabus] = useState<Syllabus | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchSyllabus = async () => {
       try {
-        const dataModule = await import('../../data/mechanical/syllabus.json');
-        setSyllabus(dataModule.default);
+        // Fetch from the public directory
+        const data: Syllabus = await fetchWithCache('/data/mechanical/syllabus.json');
+        if (!data || !data.subjects) {
+          throw new Error("Syllabus data is invalid or not found.");
+        }
+        setSyllabus(data);
       } catch (error) {
         console.error("Failed to load syllabus", error);
+        setError('Could not load syllabus. It may be coming soon.');
       } finally {
         setLoading(false);
       }
@@ -32,18 +36,25 @@ const SyllabusPage: React.FC = () => {
                 &larr; Back
             </Link>
         </div>
-      
+
       {loading ? (
         <p className="text-text-secondary">Loading syllabus...</p>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {syllabus.map((subject) => (
-            <div key={subject.name} className="bg-slate-800 p-4 rounded-lg">
-              <h2 className="text-xl font-bold text-primary mb-2">{subject.name}</h2>
-              <p className="text-text-secondary text-sm">{subject.topics}</p>
-            </div>
-          ))}
+      ) : error || !syllabus ? (
+        <div className="text-center p-4">
+            <p className="text-incorrect">{error || "Syllabus could not be displayed."}</p>
         </div>
+      ) : (
+        <>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {syllabus.subjects.map((subject) => (
+              <div key={subject.name} className="bg-background p-4 rounded-lg border border-border">
+                <h2 className="text-xl font-bold text-primary mb-2">{subject.name}</h2>
+                <p className="text-text-secondary text-sm">{subject.topics}</p>
+              </div>
+            ))}
+          </div>
+          {syllabus.note && <p className="mt-8 text-center text-text-secondary italic">{syllabus.note}</p>}
+        </>
       )}
     </div>
   );

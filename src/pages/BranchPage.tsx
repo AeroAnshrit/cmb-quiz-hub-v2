@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import SubCategoryCard from '../components/SubCategoryCard';
 import ComingSoon from '../components/ComingSoon';
 import { fetchWithCache } from '../utils/cache';
