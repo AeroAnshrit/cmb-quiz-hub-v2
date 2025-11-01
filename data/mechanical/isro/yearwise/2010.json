@@ -1,0 +1,58 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2010",
+  "questions": [
+    {
+      "chapter": "Heat Transfer",
+      "question": "If thermal conductivity of a material of wall varies as k₀(1 - αT), the temperature at the center of the wall will be (α is +ve)",
+      "image": "",
+      "options": [
+        "Depends on other factors",
+        "More than that in case of constant thermal conductivity",
+        "Less than that in case of constant thermal conductivity",
+        "None of the above"
+      ],
+      "answer": "Less than that in case of constant thermal conductivity",
+      "explanation": "When thermal conductivity decreases with an increase in temperature (α is +ve), the temperature gradient must increase to maintain the same heat flux. This results in a steeper, more curved temperature profile, and the temperature at the center will be lower than for a constant conductivity material."
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "The spectral emissive power Eλ for a diffusely emitting surface is Eλ = 0 for λ < 3 µm ; Eλ = 150 W/m²µm for 3 < λ < 12 µm ; Eλ = 300 W/m²µm for 12 < λ < 25 µm ; Eλ = 0 for λ > 25 µm. The total emissive power of the surface over the entire spectrum is",
+      "image": "[IMAGE_HERE]",
+      "options": [
+        "1250 W/m²",
+        "2500 W/m²",
+        "4000 W/m²",
+        "5250 W/m²"
+      ],
+      "answer": "5250 W/m²",
+      "explanation": "The total emissive power is the integral of the spectral emissive power over all wavelengths. E = ∫ Eλ dλ = (150 W/m²µm * (12-3)µm) + (300 W/m²µm * (25-12)µm) = (150 * 9) + (300 * 13) = 1350 + 3900 = 5250 W/m²."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A wire is plastically deformed bent by supplying a force of 40 N over a distance of 0.8m. If the wire has a mass of 0.2 kg and a specific heat of 0.5 kJ/kg°C estimate the maximum increase in the average temperature of the wire",
+      "image": "",
+      "options": [
+        "0.03°C",
+        "0.3°C",
+        "3°C",
+        "30°C"
+      ],
+      "answer": "0.3°C",
+      "explanation": "Work done = Force × distance = 40 N × 0.8 m = 32 J. This work is converted to heat, Q = mcΔT. So, 32 J = 0.2 kg × (0.5 * 1000 J/kg°C) × ΔT. This gives ΔT = 32 / (0.2 * 500) = 0.32°C. Closest answer is 0.3°C."
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "Two rods one of length L and the other of length 2L are made of the same material and have the same diameter. The two ends of the longer road are maintained at 100°C. One end of the shorter road is maintained at 100°C while the other end is insulated. Both the rods are exposed to the same environment at 40°C. The temperature at the insulated end of the shorter rod is measured to be 55°C. The temperature at the midpoint of the longer road would be",
+      "image": "",
+      "options": [
+        "40°C",
+        "50°C",
+        "55°C",
+        "100°C"
+      ],
+      "answer": "55°C",
+      "explanation": "Due to symmetry, the midpoint of the 2L rod with both ends at 100°C has a zero heat flux condition, which is equivalent to an insulated end. This makes its temperature profile identical to one half of the rod, which is a rod of length L with one end at 100°C and the other insulated. Therefore, the temperature will be the same as the insulated end of the shorter rod, 55°C."
+    }
+  ]
+}

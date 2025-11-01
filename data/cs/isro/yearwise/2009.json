@@ -1,0 +1,42 @@
+
+{
+  "title": "ISRO Scientist/Engineer CS - 2009",
+  "questions": [
+    {
+      "chapter": "Computer Networks",
+      "question": "The subnet mask for a particular network is 255.255.31.0 Which of the following pairs of IP addresses could belong to this network?",
+      "options": [
+        "172.57.88.62 and 172.56.87.23",
+        "10.35.28.2 and 10.35.29.4",
+        "191.203.31.87 and 191.234.31.88",
+        "128.8.129.43 and 128.8.161.5"
+      ],
+      "answer": "10.35.28.2 and 10.35.29.4",
+      "explanation": "The subnet mask 255.255.31.0 is invalid. Assuming it's a typo for 255.255.224.0 (which is /19). For option B, 10.35.28.2 is in network 10.35.0.0 and 10.35.29.4 is also in 10.35.0.0. The question is likely flawed but option B is the most plausible if the mask was intended to be something like 255.255.240.0."
+    },
+    {
+      "chapter": "Computer Networks",
+      "question": "In networking, UTP stands for",
+      "options": [
+        "Unshielded T-connector port",
+        "Unshielded twisted pair",
+        "Unshielded terminating pair",
+        "Universal transmission process"
+      ],
+      "answer": "Unshielded twisted pair",
+      "explanation": "UTP stands for Unshielded Twisted Pair. It's a common type of copper cable used in telephone wiring and local area networks (LANs)."
+    },
+    {
+      "chapter": "Computer Networks",
+      "question": "The address resolution protocol (ARP) is used for",
+      "options": [
+        "Finding the IP address from the DNS",
+        "Finding the IP address of the default gateway",
+        "Finding the IP address that corresponds to a MAC address",
+        "Finding the MAC address that corresponds to an IP address"
+      ],
+      "answer": "Finding the MAC address that corresponds to an IP address",
+      "explanation": "ARP (Address Resolution Protocol) is a communication protocol used for discovering the link layer address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address."
+    }
+  ]
+}

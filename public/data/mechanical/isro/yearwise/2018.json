@@ -1,0 +1,965 @@
+{
+  "title": "ISRO Scientist/Engineer ME - 2018",
+  "questions": [
+    {
+      "chapter": "Thermodynamics",
+      "question": "The pressure P of a gas in terms of its mean kinetic energy per unit volume E is equal to",
+      "options": [
+        "E/3",
+        "E/2",
+        "3E/4",
+        "2E/3"
+      ],
+      "answer": "2E/3",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Work done in a free expansion process is",
+      "options": [
+        "+ve",
+        "-ve",
+        "zero",
+        "none of the above"
+      ],
+      "answer": "zero",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "If the value of n is infinitely large in a polytropic process PVⁿ = C, then the process is known as constant",
+      "options": [
+        "volume",
+        "pressure",
+        "temperature",
+        "entropy"
+      ],
+      "answer": "volume",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "During the charging of a storage battery, the current I is 20A and the voltage E in 12.8V. The ratio of heat transfer from the battery is 16W. At what rate is the internal energy increasing?",
+      "options": [
+        "256 Js⁻¹",
+        "272 Js⁻¹",
+        "0",
+        "240 Js⁻¹"
+      ],
+      "answer": "240 Js⁻¹",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "The compression ratio for diesel engines is close to",
+      "options": [
+        "3 to 6",
+        "5 to 8",
+        "15 to 20",
+        "20 to 30"
+      ],
+      "answer": "15 to 20",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "One kg of carbon monoxide requires how much quantity of oxygen to produce 11/7 kg of carbon dioxide gas?",
+      "options": [
+        "4/7 kg",
+        "11/4 kg",
+        "9/7 kg",
+        "None of the above"
+      ],
+      "answer": "4/7 kg",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "The entropy of water at 0 K is assumed to be",
+      "options": [
+        "1 JK⁻¹",
+        "-1 JK⁻¹",
+        "10 JK⁻¹",
+        "0"
+      ],
+      "answer": "0",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "An expression process as per law PV = constant is known as",
+      "options": [
+        "parabolic expansion",
+        "hyperbolic expansion",
+        "isentropic expansion",
+        "free expansion"
+      ],
+      "answer": "hyperbolic expansion",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "Speed of an aeroplane is measured by",
+      "options": [
+        "pitot tube",
+        "hot wire anemometer",
+        "venturimeter",
+        "rotameter"
+      ],
+      "answer": "pitot tube",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "Euler's dimensionless number relates the following",
+      "options": [
+        "inertial force and gravity",
+        "viscous force and inertial force",
+        "pressure force and inertial force",
+        "viscous force and pressure force"
+      ],
+      "answer": "pressure force and inertial force",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A simple compressible substance inside a cylinder undergoes a change of state quasistatically, isothermally and at constant pressure of 1.5 MPa. If the enthalpy change for the system is 4000 kJ at 150°C, what is the corresponding change in its entropy?",
+      "options": [
+        "9.45 kJ K⁻¹",
+        "26.67 kJ K⁻¹",
+        "14.17 kJ K⁻¹",
+        "0"
+      ],
+      "answer": "9.45 kJ K⁻¹",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "The velocity of sound in a gaseous medium at a temperature of 400K in 400ms⁻¹. If the temperature of the medium is increased to 600 K, the velocity of sound will be nearly",
+      "options": [
+        "400 ms⁻¹",
+        "490 ms⁻¹",
+        "600 ms⁻¹",
+        "None of there"
+      ],
+      "answer": "490 ms⁻¹",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "Stress strain relation of the Newtonian fluid is",
+      "options": [
+        "parabolic",
+        "linear",
+        "hyperbolic",
+        "inverse type"
+      ],
+      "answer": "linear",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "Speed of sound in water is equal to (K-bulk modulus, p-density)",
+      "options": [
+        "√(K/ρ)",
+        "√(Kρ)",
+        "√(ρ/K)",
+        "K/ρ"
+      ],
+      "answer": "√(K/ρ)",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "For an irrotational flow, ∂²φ/∂x² + ∂²φ/∂y² = 0 is the equation given by",
+      "options": [
+        "Cauchy-Riemann",
+        "Reynolds",
+        "Laplace",
+        "Bernoulli"
+      ],
+      "answer": "Laplace",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "In a centrifugal pump casing, the flow of water leaving the impeller is",
+      "options": [
+        "rectilinear flow",
+        "free vortex motion",
+        "radial flow",
+        "forced vortex"
+      ],
+      "answer": "free vortex motion",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "For a two stage reciprocating compressor, compression from P₁ to P₃ is with perfect inter cooling and no pressure losses. If compression in both the cylinders follows the same polytropic process and the atmospheric pressure is Pa, then the intermediate pressure P₂ is given by",
+      "options": [
+        "P₂ = (Pₐ + P₃)/2",
+        "P₂ = √(PₐP₃)",
+        "P₂ = Pₐ(P₃/Pₐ)¹/²",
+        "P₂ = P₃(Pₐ/P₃)¹/²"
+      ],
+      "answer": "P₂ = √(PₐP₃)",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "The degree of reaction in an axial flow compressor is defined as the ratio of static enthalpy rise in the",
+      "options": [
+        "rotor to static enthalpy rise in the stator",
+        "stator to static enthalpy rise in the rotor",
+        "rotor to static enthalpy rise in the stage",
+        "stator to static enthalpy rise in the stage"
+      ],
+      "answer": "rotor to static enthalpy rise in the stage",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Vibrations",
+      "question": "The frequency of ultrasonic waves is",
+      "options": [
+        "less than 20 Hz",
+        "between 20 to 10000 Hz",
+        "between 20 to 20000 Hz",
+        "above 20000 Hz"
+      ],
+      "answer": "above 20000 Hz",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Vibrations",
+      "question": "Loudness of the sound does not change with the change in",
+      "options": [
+        "frequency",
+        "amplitude",
+        "distance from the source of sound",
+        "none of these"
+      ],
+      "answer": "frequency",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "If the stream function of two dimensional flow is ψ = 5xy, then the velocity at a point (3, 4) is",
+      "options": [
+        "25 ms⁻¹",
+        "20 ms⁻¹",
+        "7 ms⁻¹",
+        "5 ms⁻¹"
+      ],
+      "answer": "25 ms⁻¹",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A glass tube of 8 mm diameter is immersed in water. Surface tension of water is 0.0075 kg m⁻¹ and rise of water in the tube due to capillary effect is",
+      "options": [
+        "7.5 mm",
+        "3.75 mm",
+        "11.25 mm",
+        "None of these"
+      ],
+      "answer": "3.75 mm",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "An impulse turbine produces 125 hp under a head of 25 meters. By what percentage should the speed be increased for a head of 100 metres",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "answer": "100%",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "The specific speed of a centrifugal pump, delivering 1000 litres of water per second against a head of 16 metre at 800 rpm",
+      "options": [
+        "50 rpm",
+        "100 rpm",
+        "150 rpm",
+        "200 rpm"
+      ],
+      "answer": "100 rpm",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A pipe of 0.1 m² suddenly changes to 0.5 m² area. The quantity of water flowing in the pipe is 0.5 m³s⁻¹. Head loss due to sudden enlargement is nearly",
+      "options": [
+        "0.025 m",
+        "0.05 m",
+        "0.8 m",
+        "1.2 m"
+      ],
+      "answer": "0.8 m",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "Efficiency of a centrifugal pump is maximum when the blades are",
+      "options": [
+        "straight",
+        "forward curved",
+        "backward curved",
+        "forward and backward curved"
+      ],
+      "answer": "backward curved",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "The hydraulic diameter, Dₕ of a rectangular channel with sides 'a' and 'b' is,",
+      "options": [
+        "Dₕ = 4ab / (2a+b)",
+        "Dₕ = 2ab / (a+b)",
+        "Dₕ = 2ab / (2a+b)",
+        "Dₕ = 4ab / (a+b)"
+      ],
+      "answer": "Dₕ = 4ab / (2a+b)",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "Which of the following has maximum value of thermal conductivity?",
+      "options": [
+        "steel",
+        "copper",
+        "brass",
+        "aluminium"
+      ],
+      "answer": "copper",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "The value of Biot number is very small (< 0.01) when",
+      "options": [
+        "conductive resistance of the fluid is negligible",
+        "conductive resistance within the body is negligible",
+        "conductive resistance of the fluid surface of the body is negligible",
+        "None of these"
+      ],
+      "answer": "conductive resistance within the body is negligible",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "A steam pipe is to be insulated by 2 insulating materials put over each other. For best results",
+      "options": [
+        "better insulation should be put over pipe and inferior one over it",
+        "inferior insulation should be put over pipe and better one over it",
+        "both may put in any order",
+        "unpredictable"
+      ],
+      "answer": "unpredictable",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "The critical radius of insulation for a spherical shell is",
+      "options": [
+        "thermal conductivity of insulating material / heat transfer coefficient at the outer surface",
+        "2 × thermal conductivity of insulating material / heat transfer coefficient at the outer surface",
+        "thermal conductivity of insulating material / 2 × heat transfer coefficient at the outer surface",
+        "heat transfer coefficient at the outer surface / thermal conductivity of insulating material"
+      ],
+      "answer": "2 × thermal conductivity of insulating material / heat transfer coefficient at the outer surface",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "If the temperature of a solid surface changes from 27°C to 81°C, then its emissive power changes in the ratio of nearly",
+      "options": [
+        "81",
+        "9",
+        "1.49",
+        "1.94"
+      ],
+      "answer": "1.94",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "The heat removal rate from a refrigerated space is 7.2 kW and the power input to the compressor is 1.8 kW. The coefficient of performance (COP) of the refrigerator is",
+      "options": [
+        "4",
+        "5",
+        "1.25",
+        "0.25"
+      ],
+      "answer": "4",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "For a fluid having Prandtl number equal to unity, the relation between hydrodynamic boundary layer thickness (δ₁) and thermal boundary layer thickness (δ₂) is,",
+      "options": [
+        "δ₁ > δ₂",
+        "δ₁ < δ₂",
+        "δ₁ = δ₂",
+        "δ₂ = δ₁/3"
+      ],
+      "answer": "δ₁ = δ₂",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "Life of a ball bearing at a load of 10 kN is 24000 hours. If the load is increased to 20 kN (all other conditions are same), its life in hour is",
+      "options": [
+        "1000 h",
+        "3000 h",
+        "6000 h",
+        "12000 h"
+      ],
+      "answer": "3000 h",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "The main objective of 'shot peening' is to improve which property of metal parts",
+      "options": [
+        "fatigue strength",
+        "ductility",
+        "surface finish",
+        "none of these"
+      ],
+      "answer": "fatigue strength",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "A hole is of dimension φ60(+0.015/+0.000) and the corresponding shaft is of dimension φ60(+0.011/+0.001). When they are assembled they will form a",
+      "options": [
+        "interference fit",
+        "clearance fit",
+        "transition fit",
+        "none of these"
+      ],
+      "answer": "transition fit",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Which of the following carbon steels is most weldable",
+      "options": [
+        "1.0% carbon steel",
+        "0.3% carbon steel",
+        "0.5% carbon steel",
+        "0.15% carbon steel"
+      ],
+      "answer": "0.15% carbon steel",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "A small percentage of boron is added to steel in order to",
+      "options": [
+        "increase endurance strength",
+        "reduce machinability",
+        "increase water resistance",
+        "increase hardenability"
+      ],
+      "answer": "increase hardenability",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Material Science",
+      "question": "A material that exhibits the same elastic properties in all directions at a point is called",
+      "options": [
+        "homogenous",
+        "heterogenous",
+        "isotropic",
+        "orthotropic"
+      ],
+      "answer": "isotropic",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Material Science",
+      "question": "Number of atoms per unit cell of a face centered cubic (FCC) lattice is",
+      "options": [
+        "14",
+        "7",
+        "4",
+        "10"
+      ],
+      "answer": "4",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Material Science",
+      "question": "The impact strength of a material is an index of its",
+      "options": [
+        "fatigue strength",
+        "tensile strength",
+        "hardness",
+        "toughness"
+      ],
+      "answer": "toughness",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Material Science",
+      "question": "Which of the following order of crystal structure will match with metals Iron - Nickel - Titanium in that order at room temperature?",
+      "options": [
+        "BCC - HCP - FCC",
+        "FCC - BCC - HCP",
+        "HCP - FCC- BCC",
+        "BCC - FCC - HCP"
+      ],
+      "answer": "BCC - FCC - HCP",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In a machining operation cutting speed is reduced by 50%. Assuming n = 0.5, C = 300 in Taylor's equation the increase in tool life is",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answer": "4",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In a linear arc welding process, the heat input per unit length is inversely proportional to",
+      "options": [
+        "welding current",
+        "welding speed",
+        "welding voltage",
+        "duty cycle of power source"
+      ],
+      "answer": "welding speed",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "The welding process which uses a blanket of fusible granular flux is",
+      "options": [
+        "submerged arc welding",
+        "tungsten inert gas welding",
+        "electroslag welding",
+        "thermit welding"
+      ],
+      "answer": "submerged arc welding",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In a metal sheet of 3 mm thickness, a hole of 7mm diameter needs to be punched. The yield strength in tension of the sheet material is 120 MPa and its ultimate shear strength is 100 MPa. The force required to punch the hole is",
+      "options": [
+        "7.92 kN",
+        "11.6 kN",
+        "6.6 kN",
+        "13.9 kN"
+      ],
+      "answer": "6.6 kN",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Profile of a gear tooth can be checked by",
+      "options": [
+        "sine bar",
+        "bench micrometer",
+        "optical pyrometer",
+        "optical projector"
+      ],
+      "answer": "optical projector",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "The reflector combined with auto collimator can be used for checking",
+      "options": [
+        "parallelism",
+        "circularity",
+        "surface finish",
+        "alignment"
+      ],
+      "answer": "alignment",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Industrial Engineering",
+      "question": "PERT has following time estimate",
+      "options": [
+        "one time estimate",
+        "two time estimate",
+        "three time estimate",
+        "nil time estimate"
+      ],
+      "answer": "three time estimate",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Material Science",
+      "question": "Which of the following is an amorphous material",
+      "options": [
+        "mica",
+        "lead",
+        "rubber",
+        "glass"
+      ],
+      "answer": "glass",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "In a party, each person shake hands with every other person present. The total number of handshakes was 45. The number of people in the party is",
+      "options": [
+        "12",
+        "10",
+        "8",
+        "6"
+      ],
+      "answer": "10",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "Two non-zero vectors are parallel if their vector product is",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "∞"
+      ],
+      "answer": "0",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "If Eigen value a matrix a is λ, then the Eigen value of A² is",
+      "options": [
+        "1",
+        "1/λ",
+        "1/λ²",
+        "λ²"
+      ],
+      "answer": "λ²",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "The value of lim (x→∞) sinx/x is equal to",
+      "options": [
+        "1",
+        "-1",
+        "Infinity",
+        "zero"
+      ],
+      "answer": "zero",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "If f(x) = (1-x)/(1+x) then f(1/x) is equal to",
+      "options": [
+        "f(x)",
+        "-f(x)",
+        "f(-x)",
+        "±f(x)"
+      ],
+      "answer": "-f(x)",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "Inverse Laplace transform of s/(s² + a²) is",
+      "options": [
+        "(eᵃᵗ + e⁻ᵃᵗ)/2",
+        "(eᵃᵗ - e⁻ᵃᵗ)/2",
+        "cos(at)",
+        "sin(at)"
+      ],
+      "answer": "cos(at)",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "One dimensional wave equation is",
+      "options": [
+        "∂²y/∂t² = a² ∂²y/∂x²",
+        "∂y/∂t = a² ∂²y/∂x²",
+        "∂²y/∂t² + ∂²y/∂x² = 0",
+        "none of these"
+      ],
+      "answer": "∂²y/∂t² = a² ∂²y/∂x²",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "Which of the following method is said to be a direct method in numerical methods?",
+      "options": [
+        "Regula-Falsi method",
+        "Gauss-Siedel method",
+        "Newton-Raphson method",
+        "Gauss elimination method"
+      ],
+      "answer": "Gauss elimination method",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "If X is a normal variable with mean µ and standard deviation σ, then the mean and standard deviation of the variable Z = (X - µ)/σ is",
+      "options": [
+        "1 and 0 respectively",
+        "µ and σ respectively",
+        "0 and 1 respectively",
+        "None of these"
+      ],
+      "answer": "0 and 1 respectively",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "Example for an elliptic partial differential equation is",
+      "options": [
+        "Uₓₓ + Uᵧᵧ = 0",
+        "Uₜ = c²Uₓₓ",
+        "Uₜₜ = c²Uₓₓ",
+        "yUₓₓ + Uᵧᵧ = 0"
+      ],
+      "answer": "Uₓₓ + Uᵧᵧ = 0",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "The solution of the equation y'' + y = 0 satisfy the condition y(0) = 1, y(π/2) = 2, is",
+      "options": [
+        "cos x + 2 sin x",
+        "cos x + sin x",
+        "2 cos x + sin x",
+        "2(cos x + 2 sin x)"
+      ],
+      "answer": "cos x + 2 sin x",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "A composite bar made of aluminum and steel is fixed rigidly at supports P and Q as shown in figure. When the temperature of the bar is increased by 10°C, the reactions at the supports are (given Eₐₗ = 70 GPa, Eₛ = 210 GPa, αₐₗ = 11E-6 mm/mm°C and αₛ = 12 E-6 mm/mm°C)",
+      "options": [
+        "4060 N",
+        "6780 N",
+        "12240 N",
+        "2412 N"
+      ],
+      "answer": "4060 N",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "Torque, T is applied at the free end of a stepped rod of circular cross section as shown in figure. If the shear modulus of the material is G, the angular twist, θ at free end will be",
+      "options": [
+        "12TL/(Gπd⁴)",
+        "24TL/(Gπd⁴)",
+        "36TL/(Gπd⁴)",
+        "48TL/(Gπd⁴)"
+      ],
+      "answer": "36TL/(Gπd⁴)",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Material Science",
+      "question": "In most brittle materials, the ultimate strength in compression is larger than the ultimate strength in tension due to",
+      "options": [
+        "Necking in tension",
+        "Presence of flaws and microscopic cracks or cavities",
+        "Non-linearity of stress-strain diagram",
+        "Severity of tensile stress as compared to compressive stress"
+      ],
+      "answer": "Presence of flaws and microscopic cracks or cavities",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Vibrations",
+      "question": "For the spring system given in figure, the equivalent stiffness is",
+      "options": [
+        "5K/2",
+        "2 K/5",
+        "K",
+        "3K"
+      ],
+      "answer": "K",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "A round uniformly tapered bar of length L and Young's modulus E has diameter of 'd' at one end and '2d' at the other end. If the bar is pulled by an axial force F, the extension produced will be",
+      "options": [
+        "2FL/(πEd²)",
+        "4FL/(πEd²)",
+        "8FL/(πEd²)",
+        "16FL/(πEd²)"
+      ],
+      "answer": "2FL/(πEd²)",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "Two blocks A and B of 1 kg each are kept on a flat surface, one above other. The coefficient of friction between each contacting pair is 0.2. If the lower block is pulled with a horizontal force F, the minimum value of F for which the slip occurs between the blocks is nearly",
+      "options": [
+        "5.9 N",
+        "4.9 N",
+        "18.4 N",
+        "0"
+      ],
+      "answer": "5.9 N",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Vibrations",
+      "question": "If the natural frequency of a spring mass system on earth is f, its natural frequency on moon where acceleration due to gravity is one-sixth of that on earth will be",
+      "options": [
+        "f/6",
+        "6 f",
+        "f/√6",
+        "f"
+      ],
+      "answer": "f",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "A solid shaft can resist a bending moment of 6 kN m and a torque of 8 kN m applied together. The maximum torque that the shaft can resist when applied alone is",
+      "options": [
+        "7 kN m",
+        "48 kN m",
+        "10 kN m",
+        "14 kN m"
+      ],
+      "answer": "10 kN m",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "Two shafts of the same length and material are connected in series, if the ratio of their diameters is 2, then the ratio of their angles of twist will be",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "answer": "16",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "A concentrated load of F acts on a simply supported beam of span L at a distance of L/3 from left support, the bending moment at this location C is",
+      "options": [
+        "2FL/3",
+        "4FL/9",
+        "2FL/9",
+        "4FL/3"
+      ],
+      "answer": "2FL/9",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "A solid metal bar of uniform diameter D and length L is hung vertically. If ρ is density and E is the Young's Modulus, then the total elongation due to self weight is",
+      "options": [
+        "ρLg/2E",
+        "ρL²g/2E",
+        "ρEg/2L²",
+        "ρL²g/E"
+      ],
+      "answer": "ρL²g/2E",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "A circular solid disc of uniform thickness 20mm, radius 400 mm and mass 10 kg, is used as a flywheel. If it rotates at 300 rpm, the kinetic energy of the flywheel, in Joules is",
+      "options": [
+        "395",
+        "790",
+        "1580",
+        "3160"
+      ],
+      "answer": "395",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Vibrations",
+      "question": "If the length of the cantilever beam is reduced to 1/4th, the natural frequency of the mass M at the end of this cantilever beam of negligible mass will be increased by a factor of",
+      "options": [
+        "2",
+        "√8",
+        "4",
+        "8"
+      ],
+      "answer": "8",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "The relationship between the linear elastic properties Young's Modulus (E), rigidity modulus (G) and Bulk modulus (K) is given by",
+      "options": [
+        "9/E = 3/K + 1/G",
+        "1/E = 9/K + 3/G",
+        "3/E = 9/K + 1/G",
+        "9/E = 1/K + 3/G"
+      ],
+      "answer": "9/E = 1/K + 3/G",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "Euler's critical buckling load for a column fixed at both ends is",
+      "options": [
+        "2π²EI/L²",
+        "π²EI/(2L²)",
+        "4π²EI/L²",
+        "4π²EI/(4L²)"
+      ],
+      "answer": "4π²EI/L²",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "A truck hauls a trailer at 60 km/hour when exerting a steady pull of 600N. If the work is done for 40 minutes, the power required is",
+      "options": [
+        "6 kW",
+        "4 kW",
+        "2.4 kW",
+        "10 kW"
+      ],
+      "answer": "10 kW",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Vibrations",
+      "question": "A perfectly balanced rotor shaft supported between short bearings at both ends shows a deflection of 2 mm at middle. Then the critical speed of the shaft in rpm will be nearly,",
+      "options": [
+        "335",
+        "670",
+        "2010",
+        "1340"
+      ],
+      "answer": "670",
+      "explanation": "Coming Soon"
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "If an element is loaded as shown in figure below, the Von Mises stress will be close to",
+      "options": [
+        "180 MPa",
+        "350 MPa",
+        "255 MPa",
+        "495 MPa"
+      ],
+      "answer": "350 MPa",
+      "explanation": "Coming Soon"
+    }
+  ]
+}

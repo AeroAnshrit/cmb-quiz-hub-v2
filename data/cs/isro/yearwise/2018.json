@@ -1,0 +1,32 @@
+
+{
+  "title": "ISRO Scientist/Engineer CS - 2018",
+  "questions": [
+    {
+      "chapter": "Programming",
+      "question": "Consider the following program main() { int x = 1; printf('%d', (*(char*) &x)); } Assuming required header files are included and if the machine in which this program is executed is little-endian, then the output will be",
+      "options": ["0", "99999999", "1", "unpredictable"],
+      "answer": "1",
+      "explanation": "In a little-endian system, the least significant byte of a multi-byte integer is stored at the lowest memory address. For the integer x=1, its byte representation would be [01 00 00 00]. Casting the address of x to a char pointer and dereferencing it reads the first byte, which is 1."
+    },
+    {
+      "chapter": "Programming",
+      "question": "Consider the following declaration : struct addr { ... }; struct { ... } person, *kd = &person; Then *(kd -> name + 2) can be used instead of",
+      "options": [
+        "person.name + 2",
+        "kd -> (name + 2)",
+        "*((*kd).name + 2)",
+        "either (a) or (b), but not (c)"
+      ],
+      "answer": "*((*kd).name + 2)",
+      "explanation": "kd->name is a pointer to the 'name' array. kd->name+2 is an address. *(kd->name+2) accesses the character at that address. (*kd).name is equivalent to kd->name. So, *((*kd).name + 2) is equivalent to *(kd->name + 2)."
+    },
+    {
+      "chapter": "Operating Systems",
+      "question": "The following C program main() { fork(); fork(); printf('yes'); } If we execute this core segment, how many times the string yes will be printed?",
+      "options": ["Only once", "2 times", "4 times", "8 times"],
+      "answer": "4 times",
+      "explanation": "The first fork() creates one child process. Now there are two processes (parent and child). Both of these processes then execute the second fork(), each creating one more child. This results in a total of 1 (original parent) + 1 (first child) + 2 (new children) = 4 processes, each of which will execute the printf statement."
+    }
+  ]
+}

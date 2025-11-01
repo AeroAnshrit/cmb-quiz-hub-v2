@@ -1,0 +1,84 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2020",
+  "questions": [
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A centrifugal pump having an impeller diameter of 127 mm, delivers a power of 12 hp. If the impeller diameter is changed to 254 mm, what is the power, if other parameters are kept constant?",
+      "image": "",
+      "options": [
+        "48 hp",
+        "192 hp",
+        "24 hp",
+        "96 hp"
+      ],
+      "answer": "96 hp",
+      "explanation": "As per the affinity laws, the relationship between power (P) and diameter of impeller (D) is given by P ∝ D³. Therefore, P₂/P₁ = (D₂/D₁)³. P₂ = 12 * (254/127)³ = 12 * 2³ = 12 * 8 = 96 hp."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "In a circular tube of diameter 100 mm and length 13 m with laminar flow, the friction factor is estimated to be 0.05. Calculate the Reynolds number?",
+      "image": "",
+      "options": [
+        "950",
+        "2300",
+        "1280",
+        "None of the above"
+      ],
+      "answer": "1280",
+      "explanation": "For laminar flow in a circular tube, the friction factor (f) is related to the Reynolds number (Re) by the formula f = 64 / Re. Therefore, Re = 64 / f = 64 / 0.05 = 1280."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "An open tank is filled with water to a height of 20 m. What is the velocity of the water flow at the outlet, if the outlet is at the base of the tank?",
+      "image": "",
+      "options": [
+        "40 m/s (approx.)",
+        "20 m/s (approx.)",
+        "10 m/s (approx.)",
+        "5 m/s (approx.)"
+      ],
+      "answer": "20 m/s (approx.)",
+      "explanation": "According to Torricelli's law, the velocity of efflux (v) from an orifice at a depth h is given by v = √(2gh). Here, v = √(2 * 10 m/s² * 20 m) = √400 = 20 m/s."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "For a non-dimensional specific speed value of 1, for maximum efficiency, which of the following turbines is preferred?",
+      "image": "[IMAGE_HERE]",
+      "options": [
+        "Pelton wheel",
+        "Francis turbine",
+        "Kaplan turbine",
+        "Tyson wheel"
+      ],
+      "answer": "Francis turbine",
+      "explanation": "Based on the efficiency vs. non-dimensional specific speed chart, the Francis turbine shows maximum efficiency for a specific speed value around 1."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "An experiment is conducted with a fluid of density 1 kg/m³ at 10 m/s velocity. The free stream static pressure is 100 kPa and the local static pressure is 101 kPa. What is the pressure coefficient at the location?",
+      "image": "",
+      "options": [
+        "70",
+        "80",
+        "20",
+        "50"
+      ],
+      "answer": "20",
+      "explanation": "The pressure coefficient (Cp) is calculated as Cp = (P_local - P_freestream) / (0.5 * ρ * v²). Cp = (101000 - 100000) / (0.5 * 1 * 10²) = 1000 / 50 = 20."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "In a P-V diagram of a steady flow compressor, the intercooling can be represented as",
+      "image": "[IMAGE_HERE]",
+      "options": [
+        "Vertical line",
+        "Horizontal line",
+        "Parabolic line",
+        "None of the above"
+      ],
+      "answer": "Horizontal line",
+      "explanation": "Intercooling in a multi-stage compressor is a constant pressure process. On a P-V diagram, a constant pressure process is represented by a horizontal line."
+    }
+  ]
+}

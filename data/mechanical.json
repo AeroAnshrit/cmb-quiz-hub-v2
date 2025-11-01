@@ -1,0 +1,43 @@
+
+{
+  "id": "mechanical-001",
+  "category": "Mechanical",
+  "title": "Strength of Materials",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is stress?",
+      "options": ["Force per unit area", "Change in length per unit length", "Force per unit volume", "Mass per unit volume"],
+      "answer": 0,
+      "explanation": "Stress (σ) is defined as the force (F) acting on a body per unit of cross-sectional area (A). The formula is σ = F/A."
+    },
+    {
+      "id": "q2",
+      "question": "What does Hooke's Law state?",
+      "options": ["Stress is inversely proportional to strain", "Stress is equal to strain", "Stress is proportional to strain within the elastic limit", "Stress is independent of strain"],
+      "answer": 2,
+      "explanation": "Hooke's Law states that for a material within its elastic limit, the stress applied is directly proportional to the strain produced."
+    },
+    {
+      "id": "q3",
+      "question": "The ability of a material to absorb energy and deform plastically without fracturing is known as:",
+      "options": ["Hardness", "Toughness", "Ductility", "Brittleness"],
+      "answer": 1,
+      "explanation": "Toughness is the measure of a material's ability to absorb energy up to fracture. It is represented by the area under the stress-strain curve."
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following is a measure of a material's resistance to localized plastic deformation such as scratching or indentation?",
+      "options": ["Stiffness", "Strength", "Hardness", "Resilience"],
+      "answer": 2,
+      "explanation": "Hardness is a measure of a material's resistance to localized plastic deformation, such as a scratch or indentation."
+    },
+    {
+      "id": "q5",
+      "question": "What is the Poisson's Ratio?",
+      "options": ["Ratio of longitudinal strain to lateral strain", "Ratio of stress to strain", "Ratio of shear stress to shear strain", "Ratio of lateral strain to longitudinal strain"],
+      "answer": 3,
+      "explanation": "Poisson's Ratio is the ratio of transverse (or lateral) strain to the corresponding axial (or longitudinal) strain resulting from an axial stress, as long as the elastic limit is not exceeded."
+    }
+  ]
+}

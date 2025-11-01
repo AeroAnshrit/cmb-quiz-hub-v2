@@ -1,0 +1,17 @@
+
+[
+  {
+    "chapter": "Algorithms",
+    "question": "What is the time complexity of the Merge Sort algorithm in all cases?",
+    "options": ["O(n²)", "O(n log n)", "O(n)", "O(log n)"],
+    "answer": "O(n log n)",
+    "explanation": "Merge Sort is a classic divide-and-conquer algorithm. Its time complexity is consistently O(n log n) in the best, average, and worst cases because it always divides the array into two halves and takes linear time to merge them."
+  },
+  {
+    "chapter": "Databases",
+    "question": "What does SQL stand for?",
+    "options": ["Structured Query Language", "Simple Query Language", "Standard Query Language", "Sequential Query Language"],
+    "answer": "Structured Query Language",
+    "explanation": "SQL stands for Structured Query Language. It is the standard language for relational database management systems used for querying, manipulating, and defining data."
+  }
+]

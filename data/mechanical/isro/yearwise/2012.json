@@ -1,0 +1,58 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2012",
+  "questions": [
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "Area moment of inertia for the quadrant shown below is",
+      "image": "[IMAGE_HERE]",
+      "options": [
+        "πr⁴/2",
+        "πr⁴/4",
+        "πr⁴/8",
+        "πr⁴/16"
+      ],
+      "answer": "πr⁴/16",
+      "explanation": "The area moment of inertia of a full circle about its diametral axis is (πd⁴)/64 or (πr⁴)/4. For a quadrant, the moment of inertia about one of its bounding axes (x or y) is 1/4th of that of a full circle, which is (1/4) * (πr⁴)/4 = πr⁴/16."
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "A column of length 'L' is fixed at bottom end and hinged at the other end. This column is restrained from lateral displacement at 1/3rd height. The buckling load is given by",
+      "image": "[IMAGE_HERE]",
+      "options": [
+        "9π²EI/(4L²)",
+        "4π²EI/L²",
+        "4π²EI/(9L²)",
+        "π²EI/L²"
+      ],
+      "answer": "9π²EI/(4L²)",
+      "explanation": "The column behaves as two separate columns. The upper part (length 2L/3) is hinged at both ends. Its buckling load is P₁ = π²EI / (2L/3)² = 9π²EI / 4L². The lower part (length L/3) is fixed at one end and hinged at the other. Its buckling load is P₂ ≈ 2.04π²EI / (L/3)² = 18.4π²EI / L². The critical load for the entire column is the minimum of the two, which is 9π²EI/(4L²)."
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "A shaft has two heavy rotors mounted on it. The transverse natural frequency considering each rotor separately is 100 hz & 200 hz respectively. The lowest critical speed is",
+      "image": "",
+      "options": [
+        "13000 rpm",
+        "5367 rpm",
+        "6450 rpm",
+        "9343 rpm"
+      ],
+      "answer": "5367 rpm",
+      "explanation": "Using Dunkerley's method for multiple rotors, 1/fₙ² = 1/f₁² + 1/f₂². So, 1/fₙ² = 1/100² + 1/200² = (4+1)/40000 = 5/40000. This gives fₙ = √(40000/5) = √8000 ≈ 89.44 Hz. The critical speed in rpm is Nc = 60 * fₙ = 60 * 89.44 ≈ 5367 rpm."
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "A mass 'M' is suspended from a ceiling through a string of length 'L'. This mass moves in a circle of horizontal radius 'r' at constant speed such that it is a conical pendulum. The tension in the string will be",
+      "image": "[IMAGE_HERE]",
+      "options": [
+        "mgL/(2√(L²-r²))",
+        "mgL/√L",
+        "mgL/r",
+        "mgL/√(L²-r²)"
+      ],
+      "answer": "mgL/√(L²-r²)",
+      "explanation": "In a conical pendulum, let θ be the angle the string makes with the vertical. The vertical component of tension balances the weight: Tcosθ = mg. From geometry, cosθ = √(L²-r²)/L. Substituting this, T * (√(L²-r²)/L) = mg. Solving for T gives T = mgL/√(L²-r²)."
+    }
+  ]
+}

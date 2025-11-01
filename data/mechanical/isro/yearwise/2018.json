@@ -1,0 +1,58 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2018",
+  "questions": [
+    {
+      "chapter": "Thermodynamics",
+      "question": "The pressure P of a gas in terms of its mean kinetic energy per unit volume E is equal to",
+      "image": "",
+      "options": [
+        "E/3",
+        "E/2",
+        "3E/4",
+        "2E/3"
+      ],
+      "answer": "2E/3",
+      "explanation": "From the kinetic theory of gases, the pressure P exerted by an ideal gas is related to the mean kinetic energy per unit volume E by the equation P = (2/3)E."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Work done in a free expansion process is",
+      "image": "",
+      "options": [
+        "+ve",
+        "-ve",
+        "zero",
+        "none of the above"
+      ],
+      "answer": "zero",
+      "explanation": "In a free expansion (or Joule expansion), a gas expands into a vacuum. Since there is no external pressure to work against, the work done by the gas is zero."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "If the value of n is infinitely large in a polytropic process PVⁿ = C, then the process is known as constant",
+      "image": "",
+      "options": [
+        "volume",
+        "pressure",
+        "temperature",
+        "entropy"
+      ],
+      "answer": "volume",
+      "explanation": "In a polytropic process PVⁿ = C, if n approaches infinity, the process becomes an isochoric (constant volume) process. This can be seen by rewriting the equation as P^(1/n)V = C^(1/n). As n→∞, 1/n→0, and P⁰V = C', which means V = constant."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "One kg of carbon monoxide requires how much quantity of oxygen to produce 11/7 kg of carbon dioxide gas?",
+      "image": "",
+      "options": [
+        "4/7 kg",
+        "11/4 kg",
+        "9/7 kg",
+        "None of the above"
+      ],
+      "answer": "4/7 kg",
+      "explanation": "The chemical reaction is 2CO + O₂ → 2CO₂. The molar masses are CO≈28, O₂≈32, CO₂≈44. This means 56 kg of CO reacts with 32 kg of O₂ to produce 88 kg of CO₂. To produce 11/7 kg of CO₂, we need (32/88) * (11/7) = (4/11) * (11/7) = 4/7 kg of O₂."
+    }
+  ]
+}

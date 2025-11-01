@@ -1,0 +1,29 @@
+{
+  "title": "GATE Mechanical - 2023",
+  "questions": [
+    {
+      "chapter": "Theory of Machines",
+      "question": "The number of degrees of freedom of a planar four-bar linkage is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answer": "1",
+      "explanation": "Using Gruebler’s criterion, F = 3(n-1)-2j = 1 for a planar four-bar linkage."
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "In steady-state one-dimensional conduction without heat generation, the temperature profile is:",
+      "options": [
+        "Linear",
+        "Parabolic",
+        "Exponential",
+        "Logarithmic"
+      ],
+      "answer": "Linear",
+      "explanation": "For steady 1D conduction with constant thermal conductivity and no heat generation, Fourier's law leads to a linear temperature distribution."
+    }
+  ]
+}

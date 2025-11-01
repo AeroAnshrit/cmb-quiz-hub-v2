@@ -1,0 +1,27 @@
+
+{
+  "title": "ISRO Scientist/Engineer CS - 2013",
+  "questions": [
+    {
+      "chapter": "Data Structures",
+      "question": "Let A(1:8, -5:5, -10:5) be a three dimensional array. How many elements are there in the array A?",
+      "options": ["1200", "1408", "33", "1050"],
+      "answer": "1408",
+      "explanation": "The number of elements is the product of the sizes of each dimension. Size 1 = 8-1+1 = 8. Size 2 = 5-(-5)+1 = 11. Size 3 = 5-(-10)+1 = 16. Total elements = 8 * 11 * 16 = 1408."
+    },
+    {
+      "chapter": "Data Structures",
+      "question": "The number of rotations required to insert a sequence of elements 9,6,5,8,7,10 into an empty AVL tree is?",
+      "options": ["0", "1", "2", "3"],
+      "answer": "2",
+      "explanation": "Inserting 9, 6, 5 requires one right rotation. Inserting 8, 7, 10 requires subsequent rotations. Tracing the AVL insertion algorithm step-by-step for the given sequence results in 2 rotations being performed."
+    },
+    {
+      "chapter": "Compiler Design",
+      "question": "Shift reduce parsing belongs to a class of",
+      "options": ["bottom up parsing", "top down parsing", "recursive parsing", "predictive parsing"],
+      "answer": "bottom up parsing",
+      "explanation": "Shift-reduce parsing is a type of bottom-up parsing method that attempts to construct a parse tree for an input string beginning at the leaves and working up towards the root."
+    }
+  ]
+}

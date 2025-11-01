@@ -1,0 +1,45 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2013",
+  "questions": [
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "A concentrated load P is applied at the end of a cantilever as shown in Fig. The cross section of the beam is a square of side 'a' with a hole of dia 'a/2'. The deflection at the tip of the cantilever is given by",
+      "image": "[IMAGE_HERE]",
+      "options": [
+        "3P L³ / E a⁴",
+        "1024P L³ / ((256 - 3π)E a⁴)",
+        "1024P L³ / (E a⁴(256 - π/64))",
+        "256P L³ / ((1024 - 3π)E a⁴)"
+      ],
+      "answer": "1024P L³ / ((256 - 3π)E a⁴)",
+      "explanation": "Deflection δ = PL³/3EI. Moment of inertia for the section is I = I_square - I_hole = a⁴/12 - π(a/2)⁴/64 = a⁴/12 - πa⁴/1024 = a⁴(256 - 3π)/3072. Substituting I into the deflection formula gives δ = PL³ / (3E * (a⁴(256-3π)/3072)) = 1024PL³ / (Ea⁴(256-3π))."
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "A cantilever beam is subjected to a UDL. The cross section of the beam is a H-Section placed as shown in Fig. The bending stress distribution across the cross section will be",
+      "image": "[IMAGE_HERE]",
+      "options": [
+        "A diagram showing a non-linear stress distribution.",
+        "A diagram showing uniform tensile stress.",
+        "A diagram showing linear stress distribution, zero at NA, varying through web and flange.",
+        "A diagram showing uniform compressive stress."
+      ],
+      "answer": "A diagram showing linear stress distribution, zero at NA, varying through web and flange.",
+      "explanation": "Bending stress is given by σ = My/I. For a given cross-section, stress varies linearly with the distance 'y' from the neutral axis (NA). It is zero at the NA and reaches maximum tensile and compressive values at the extreme fibers of the top and bottom flanges, respectively. The diagram C correctly shows this linear distribution."
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "A thick cylinder of inner dia 'D', wall thickness t₂ and length 'L' is sealed at its both ends with caps. The thickness of the cap is t₁. Allowable tensile yield stress = σy and allowable shear stress = τy. A gas is pumped into this cylinder at pressure 'p'. The cap will yield in shear at circumference of diameter 'D' when the gas pressure applied is more than",
+      "image": "[IMAGE_HERE]",
+      "options": [
+        "4τᵧt₁/D",
+        "8τᵧt₁/D",
+        "4σᵧt₁/D",
+        "2τᵧt₁/D"
+      ],
+      "answer": "4τᵧt₁/D",
+      "explanation": "The force on the cap due to pressure 'p' is F = p * (πD²/4). This force is resisted by the shear stress τᵧ acting over the shear area at the circumference, A_s = πDt₁. For equilibrium, F = A_s * τᵧ. So, p(πD²/4) = τᵧ(πDt₁). Solving for p gives p = 4τᵧt₁/D."
+    }
+  ]
+}

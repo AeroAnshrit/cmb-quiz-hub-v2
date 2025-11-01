@@ -1,0 +1,29 @@
+{
+  "title": "ISRO Scientist/Engineer ME - 2007",
+  "questions": [
+    {
+      "chapter": "Thermodynamics",
+      "question": "For an isentropic process of an ideal gas, which relation holds? (where γ = Cp/Cv)",
+      "options": [
+        "pV = constant",
+        "pV^γ = constant",
+        "T/V = constant",
+        "p/T = constant"
+      ],
+      "answer": "pV^γ = constant",
+      "explanation": "For a reversible adiabatic (isentropic) process, the relation PV^γ = constant is valid for an ideal gas."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "Bernoulli’s equation is derived from the principle of conservation of:",
+      "options": [
+        "Mass",
+        "Momentum",
+        "Energy",
+        "Angular Momentum"
+      ],
+      "answer": "Energy",
+      "explanation": "Bernoulli’s equation is a statement of the conservation of energy principle for flowing fluids."
+    }
+  ]
+}

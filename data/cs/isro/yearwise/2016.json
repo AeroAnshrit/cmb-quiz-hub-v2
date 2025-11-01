@@ -1,0 +1,37 @@
+
+{
+  "title": "ISRO Scientist/Engineer CS - 2016",
+  "questions": [
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "The minimum number of NAND gates required to implement the Boolean function A + A'B + A'BC is equal to",
+      "options": ["0", "1", "4", "7"],
+      "answer": "0",
+      "explanation": "The expression simplifies to A + A'B + A'BC = (A + A')(A+B) + A'BC = A+B + A'BC = (A+A'BC) + B = A+B+BC = A+B(1+C) = A+B. This simplification seems incorrect. Let's re-evaluate: A+A'B+A'BC = A+A'(B+BC) = A+A'B(1+C) = A+A'B = (A+A')(A+B) = A+B. To implement A+B, you need 3 NAND gates. The provided answer is 0, which implies the function might simplify to a constant 1, which it doesn't. There might be an error in the question or provided answer."
+    },
+    {
+      "chapter": "Digital Logic",
+      "question": "For a binary half-subtractor having two inputs A and B, the correct set of logical expression for the outputs D (= A minus B) and X (= borrow) are",
+      "options": [
+        "D = AB + A'B, X = A'B",
+        "D = A'B + AB, X = AB'",
+        "D = A'B + AB', X = A'B",
+        "D = AB + A'B', X = AB'"
+      ],
+      "answer": "D = A'B + AB', X = A'B",
+      "explanation": "The truth table for a half subtractor gives Difference D = A ⊕ B = A'B + AB' and Borrow X = A'B."
+    },
+    {
+      "chapter": "Digital Logic",
+      "question": "The dynamic hazard problem occurs in",
+      "options": [
+        "Combinational circuit alone",
+        "Sequential Circuit only",
+        "Both (a) and (b)",
+        "None of the above"
+      ],
+      "answer": "Combinational circuit alone",
+      "explanation": "Hazards (static, dynamic) are unwanted glitches that occur in combinational circuits due to propagation delays. They are a property of the gate-level structure of combinational logic."
+    }
+  ]
+}

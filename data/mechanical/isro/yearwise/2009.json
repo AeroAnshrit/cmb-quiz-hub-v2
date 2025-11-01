@@ -1,0 +1,71 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2009",
+  "questions": [
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A hydraulic press has a ram of 15 cm diameter and plunger of 1.5 cm. It is required to lift a mass of 1000 kg. The force required on plunger is nearly equal to",
+      "image": "",
+      "options": [
+        "100N",
+        "1000N",
+        "10000N",
+        "10N"
+      ],
+      "answer": "100N",
+      "explanation": "By Archimedes principle, F₁/A₁ = F₂/A₂. F₁ = F₂ × (A₁/A₂). F₁ = (1000kg × g) × (π(1.5)²/4) / (π(15)²/4) = 10000 × (1.5/15)² = 10000 × (1/100) = 100N."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "If the stream function is given by Ψ = 3xy, then the velocity at a point (2, 3) will be",
+      "image": "",
+      "options": [
+        "7.21 unit",
+        "18 unit",
+        "10.82 unit",
+        "54 unit"
+      ],
+      "answer": "10.82 unit",
+      "explanation": "Given stream function ψ = 3xy. Velocity components are u = ∂ψ/∂y = 3x and v = -∂ψ/∂x = -3y. At point (2, 3), u = 3(2) = 6 and v = -3(3) = -9. Resultant velocity = √(u² + v²) = √(6² + (-9)²) = √(36 + 81) = √117 ≈ 10.82 units."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "The correct sequence of the centrifugal pump components through which the fluid flows is",
+      "image": "",
+      "options": [
+        "Impeller, Suction pipe, Foot valve and strainer, Deliver pipe",
+        "Foot valve and strainer, Suction pipe, Impeller, Deliver pipe",
+        "Impeller, Suction pipe, Deliver pipe, Foot valve and strainer",
+        "Suction pipe, Deliver pipe, Impeller, Foot valve and strainer"
+      ],
+      "answer": "Foot valve and strainer, Suction pipe, Impeller, Deliver pipe",
+      "explanation": "The sequence of the centrifugal pump is 'Foot valve and strainer, suction pipe, Impeller, Delivery pipe'."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "The relation PV^γ = constant, where γ is the ratio of the specific heats of ideal gas, is applicable to",
+      "image": "",
+      "options": [
+        "Any adiabatic process",
+        "Only reversible adiabatic process",
+        "Only irreversible adiabatic process",
+        "Only isothermal process"
+      ],
+      "answer": "Only reversible adiabatic process",
+      "explanation": "PV^γ = constant. Where, γ = Cp/Cv. The above relation is valid for adiabatic & reversible process only for ideal gas."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "Across a normal shock",
+      "image": "",
+      "options": [
+        "static pressure and the static temperature rise",
+        "entropy remains constant",
+        "velocity and static pressure decrease",
+        "density and temperature decrease"
+      ],
+      "answer": "static pressure and the static temperature rise",
+      "explanation": "The shock wave is perpendicular to the flow direction it is called a normal shock. Across a normal shock static pressure and the static temperature rise almost instantaneously."
+    }
+  ]
+}

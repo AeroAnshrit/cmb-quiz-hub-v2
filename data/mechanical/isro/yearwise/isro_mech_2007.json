@@ -1,0 +1,20 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2007",
+  "questions": [
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "What does a Venturi meter measure?",
+      "options": ["Pressure", "Velocity", "Discharge", "Viscosity"],
+      "answer": "Discharge",
+      "explanation": "A Venturi meter is a device used for measuring the rate of fluid flow (or discharge) in a pipe."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In welding, which of the following is a type of fusion welding?",
+      "options": ["Resistance welding", "Forge welding", "Arc welding", "Friction welding"],
+      "answer": "Arc welding",
+      "explanation": "Arc welding is a type of fusion welding process where the heat from an electric arc is used to melt and join metals."
+    }
+  ]
+}

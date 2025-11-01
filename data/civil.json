@@ -1,0 +1,22 @@
+
+{
+  "id": "civil-001",
+  "category": "Civil",
+  "title": "Basic Civil Engineering",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of the following is the most common type of cement used in construction?",
+      "options": ["Portland Pozzolana Cement", "Rapid Hardening Cement", "Ordinary Portland Cement (OPC)", "White Cement"],
+      "answer": 2,
+      "explanation": "Ordinary Portland Cement (OPC) is the most widely used type of cement, suitable for all general concrete construction."
+    },
+    {
+      "id": "q2",
+      "question": "The process of levelling in surveying is used to determine:",
+      "options": ["Horizontal distances", "Relative vertical heights of points", "Angles between lines", "Area of a plot"],
+      "answer": 1,
+      "explanation": "Levelling is a branch of surveying, the object of which is to establish points at a given elevation or to determine the relative elevations of different points."
+    }
+  ]
+}

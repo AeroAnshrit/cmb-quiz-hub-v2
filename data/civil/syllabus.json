@@ -1,0 +1,32 @@
+{
+    "subjects": [
+        {
+            "name": "Structural Engineering",
+            "topics": "Bending, shear, axial loads, design codes"
+        },
+        {
+            "name": "Geotechnical Engineering",
+            "topics": "Soil classification, shear strength, foundations"
+        },
+        {
+            "name": "Water Resources",
+            "topics": "Hydrology, flow in pipes/open channels"
+        },
+        {
+            "name": "Environmental Engineering",
+            "topics": "Water treatment, air pollution, solid waste"
+        },
+        {
+            "name": "Transportation Engineering",
+            "topics": "Highway design, traffic flow, pavements"
+        },
+        {
+            "name": "Surveying",
+            "topics": "Compass, leveling, GPS, remote sensing"
+        },
+        {
+            "name": "Construction Materials & Management",
+            "topics": "Concrete, steel, project planning"
+        }
+    ]
+}

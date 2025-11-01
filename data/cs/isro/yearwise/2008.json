@@ -1,0 +1,42 @@
+
+{
+  "title": "ISRO Scientist/Engineer CS - 2008",
+  "questions": [
+    {
+      "chapter": "Programming",
+      "question": "Which of the following is an illegal array definition?",
+      "options": [
+        "type COLOGNE: (LIME, PINE, MUSK,MENTHOL); var a : array [COLOGNE] of REAL;",
+        "var a: array [REAL] of REAL;",
+        "vara: array [A’.’Z'] of REAL;",
+        "vara: array [BOOLEAN] of REAL;"
+      ],
+      "answer": "var a: array [REAL] of REAL;",
+      "explanation": "In many programming languages like Pascal, the bounds of an array must be a discrete ordinal type, not a real number type. `REAL` is not a valid type for an array index."
+    },
+    {
+      "chapter": "Computer Graphics",
+      "question": "The term Phong is associated with",
+      "options": [
+        "Ray tracing",
+        "shading",
+        "Hiddenline removal",
+        "a game"
+      ],
+      "answer": "shading",
+      "explanation": "The Phong reflection model is an empirical model for the local illumination of points on a surface, widely used in 3D computer graphics for shading."
+    },
+    {
+      "chapter": "Computer Networks",
+      "question": "The subnet mask 255.255.255.192",
+      "options": [
+        "extends the network portion to 16 bits",
+        "extends the network portion to 26 bits",
+        "extends the network portion to 36 bits",
+        "has no effect on the networkportion of an IP address"
+      ],
+      "answer": "extends the network portion to 26 bits",
+      "explanation": "The subnet mask 255.255.255.192 in binary is 11111111.11111111.11111111.11000000. This has 26 ones, which means it extends the network portion of the address to 26 bits."
+    }
+  ]
+}

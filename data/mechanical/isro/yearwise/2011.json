@@ -1,0 +1,58 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2011",
+  "questions": [
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A cylindrical body of cross-sectional area A, height H and density ρs, is immersed to a depth h in a liquid of density ρ, and tied to the bottom with a string. The tension in the string is",
+      "image": "",
+      "options": [
+        "ρghA",
+        "(ρh - ρs H)gA",
+        "(ρ - ρs) ghA",
+        "(ρs - ρ) ghA"
+      ],
+      "answer": "(ρh - ρs H)gA",
+      "explanation": "The forces acting on the body are: Tension (T) downwards, Weight (W = ρs g H A) downwards, and Buoyant force (FB = ρ g h A) upwards. For equilibrium, T + W = FB, so T = FB - W = ρghA - ρsgHA = gA(ρh - ρsH)."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A manometer measures the pressure differential between two locations of a pipe carrying water. If the manometric liquid is mercury (specific gravity 13.6) and the manometer showed a level difference of 20cm, then the pressure head difference of water between the two tapings will be",
+      "image": "",
+      "options": [
+        "1.26m",
+        "2.72m",
+        "1.36m",
+        "2.52m"
+      ],
+      "answer": "2.52m",
+      "explanation": "The pressure head difference in terms of the flowing fluid (water) is given by h = x(S_m/S_f - 1), where x is the manometer reading, S_m is the specific gravity of the manometric fluid, and S_f is the specific gravity of the flowing fluid. h = 0.20m * (13.6/1 - 1) = 0.20 * 12.6 = 2.52m."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "Flow takes place at Reynolds Number of 1500 in two different pipes with relative roughness of 0.001 and 0.002. The friction factor",
+      "image": "",
+      "options": [
+        "Will be higher for the pipe with relative roughness of 0.001",
+        "Will be higher for the pipe having relative roughness of 0.002",
+        "Will be the same in both the pipes",
+        "In the two pipes cannot be compared on the basis of data given"
+      ],
+      "answer": "Will be the same in both the pipes",
+      "explanation": "A Reynolds number of 1500 indicates that the flow is laminar (since it's less than the critical value of ~2100). In the laminar flow regime, the friction factor is given by f = 64/Re and is independent of the pipe's relative roughness."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A liquid compressed in cylinder has a volume of 0.04m³ at 50 kg/cm² and a volume of 0.039m³ at 150 kg/cm². The bulk modulus of elasticity of liquid is",
+      "image": "",
+      "options": [
+        "400 kg/cm²",
+        "40 × 10⁶ kg/cm²",
+        "40 × 10⁵ kg/cm²",
+        "4000 kg/cm²"
+      ],
+      "answer": "4000 kg/cm²",
+      "explanation": "Bulk Modulus K = -V(dP/dV). Approximating, K ≈ -V₁(ΔP/ΔV) = -0.04 * (150-50)/(0.039-0.04) = -0.04 * (100)/(-0.001) = 4000 kg/cm²."
+    }
+  ]
+}

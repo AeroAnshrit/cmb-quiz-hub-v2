@@ -1,0 +1,718 @@
+{
+  "title": "ISRO Scientist/Engineer ME - 2017",
+  "questions": [
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "The most applicable failure theory for metals like aluminium is",
+      "options": [
+        "Maximum principal stress theory",
+        "Maximum principal strain theory",
+        "Total strain energy theory",
+        "Maximum distortion energy theory"
+      ],
+      "answer": "Maximum distortion energy theory",
+      "explanation": "The most applicable failure theory for ductile materials is the Maximum Distortion Energy Theory (von Mises). For brittle materials, the Maximum Principal Stress Theory is used."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Which one of the following is FALSE?",
+      "image": "/images/mechanical/isro/2017/q2.png",
+      "options": [
+        "Number of Taps generally used for hand taping is 3",
+        "Piispanen's model in machining is used to estimate shear strain",
+        "Chip hammering during machining is due to improper chip control",
+        "Cemented carbide tools are generally poor in compression"
+      ],
+      "answer": "Cemented carbide tools are generally poor in compression",
+      "explanation": "Cemented carbide tools have very high compressive strength but are generally poor in shear. The statement that they are poor in compression is false."
+    },
+    {
+      "chapter": "Industrial Engineering",
+      "question": "A statistical process control chart which shows the number of defects found in a subgroup of fixed size is",
+      "image": "/images/mechanical/isro/2017/q3.png",
+      "options": ["C-chart", "R-chart", "Control chart", "Gantt chart"],
+      "answer": "C-chart",
+      "explanation": "A C-chart is an attributes control chart used for monitoring the number of defects per unit when the sample size is fixed."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Complex irregular three dimensional surfaces can be located using the following method",
+      "options": ["Sighting", "Nesting", "Integral locators", "Buttons"],
+      "answer": "Nesting",
+      "explanation": "Nesting locators position a part by enclosing it in a recess of the same shape, making it the most accurate method for complex irregular 3-D surfaces."
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "The force in member BC of steel truss structure shown in figure below is (Cross section of each member is A, Length of each member is 'l')",
+      "image": "/images/mechanical/isro/2017/q5.png",
+      "options": ["P₁ + 2P₂", "2P₁ + P₂", "2×(P₁ + P₂)", "(P₁ + P₂)/2"],
+      "answer": "2×(P₁ + P₂)",
+      "explanation": "By taking moments about point G for the right-hand side of the section, F_BC × l = 2P₁ × l + P₂ × 2l, which simplifies to F_BC = 2P₁ + 2P₂ = 2(P₁ + P₂)."
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "Buckling loads (Pi) of 4 columns of equal length and cross section, but with different end conditions are shown below. Which of the following is TRUE?",
+      "image": "/images/mechanical/isro/2017/q6.png",
+      "options": [
+        "Pq < Pp < Pr < Ps",
+        "Pr < Pp < Ps < Pq",
+        "Ps < Pr < Pq < Pp",
+        "Ps < Pq < Pr < Pp"
+      ],
+      "answer": "Pr < Pp < Ps < Pq",
+      "explanation": "The buckling loads are: Pr(fixed-free) = π²EI/4l², Pp(hinged-hinged) = π²EI/l², Ps(fixed-hinged) = 2π²EI/l², Pq(fixed-fixed) = 4π²EI/l². The correct increasing order is Pr < Pp < Ps < Pq."
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "The bar AB weighs 10 kg per meter and is supported by cable AC and a pin at B. Reaction at B is (take g = 10 m/s²)",
+      "image": "/images/mechanical/isro/2017/q7.png",
+      "options": [
+        "200 N, vertical",
+        "200 N, at 30° to horizontal",
+        "100 N vertical",
+        "100 N at 60° to horizontal"
+      ],
+      "answer": "200 N, at 30° to horizontal",
+      "explanation": "The total weight of the rod is 10 kg/m * 2m * 10 m/s² = 200 N acting at the center. Taking moments about B, Tsin(30) * 2 - 200 * 1 = 0, so T = 200 N. Summing forces, R_BV = 100 N and R_BH = 173.2 N. The resultant reaction is 200 N at 30° to the horizontal."
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "Arrange the metals Aluminium, Copper, Iron & Silver in increasing order of thermal conductivity",
+      "options": [
+        "Iron, Aluminium, Copper, Silver",
+        "Aluminium, Iron, Copper, Silver",
+        "Copper, Iron, Silver, Aluminium",
+        "Iron, Copper, Aluminium, Silver"
+      ],
+      "answer": "Iron, Aluminium, Copper, Silver",
+      "explanation": "The approximate thermal conductivities are: Iron (55-35), Aluminium (210), Copper (385), Silver (410). The correct increasing order is Iron < Aluminium < Copper < Silver."
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "Modulus of resilience for the material shown in the stress-strain diagram is",
+      "image": "/images/mechanical/isro/2017/q9.png",
+      "options": ["200 kN/m²", "100 kN/m²", "606.25 kN/m²", "12.29 MN/m²"],
+      "answer": "100 kN/m²",
+      "explanation": "Modulus of resilience is the area under the stress-strain curve up to the elastic limit. Area = 0.5 * stress * strain = 0.5 * 200 N/mm² * 0.001 = 0.1 N/mm² = 0.1 * 10⁶ N/m² = 100 kN/m²."
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "Which of the following is FALSE?",
+      "options": [
+        "Heat flow by conduction is directly proportional to the area and temperature gradient",
+        "Heat flow by convection is directly proportional to the area and temperature difference",
+        "Heat flow by radiation is directly proportional to the cube of absolute temperature of the radiating body",
+        "Emissivity of a perfect black body is unity"
+      ],
+      "answer": "Heat flow by radiation is directly proportional to the cube of absolute temperature of the radiating body",
+      "explanation": "Heat flow by radiation is directly proportional to the fourth power of the absolute temperature (Stefan-Boltzmann Law), not the cube."
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "Two dimensionally equal blocks of material M1 and M2 are placed on a flat surface with Young's moduli E1 > E2. A uniform pressure 'p' is applied. Which of the following statements are correct? (p) Stress in both blocks are same (q) Strain in both blocks are same (r) Plate AB tilts and point B moves downward (s) Plate AB tilts and point A moves downward.",
+      "image": "/images/mechanical/isro/2017/q11.png",
+      "options": ["p, q and r", "q and r", "p and s", "p and r"],
+      "answer": "p and r",
+      "explanation": "Since pressure 'p' is uniform and blocks are dimensionally equal, the stress (P/A) is the same in both (p is correct). Since E1 > E2, strain (stress/E) will be different. Strain in M2 will be greater than M1, so block M2 will compress more, causing point B to move downward (r is correct)."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In tolerancing of a part, unless otherwise specified, individual features of size must",
+      "options": [
+        "not violate size limits of MMC at any cross section",
+        "not violate an envelope of perfect form at LMC",
+        "not violate an envelope of perfect form at MMC",
+        "None of these"
+      ],
+      "answer": "not violate an envelope of perfect form at MMC",
+      "explanation": "This is Taylor's principle of gauging. It ensures that a feature at its Maximum Material Condition (MMC) will have perfect form, which is critical for interchangeability."
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "A rigid horizontal bar AB is supported by two wires CE & DF of lengths L and 2L. If each wire has cross-sectional area A, the tensile stresses σ₁ (in CE) and σ₂ (in DF) are respectively.",
+      "image": "/images/mechanical/isro/2017/q13.png",
+      "options": [
+        "3P/5A and 6P/5A",
+        "2P/5A and 4P/5A",
+        "3P/A and 6P/A",
+        "P/A each"
+      ],
+      "answer": "P/A each",
+      "explanation": "From the geometry of similar triangles formed by deflection, Δ₂ = 2Δ₁. Since Δ = PL/AE, we get (P₂*2L)/AE = 2 * (P₁*L)/AE, which simplifies to P₂ = P₁. From moment equilibrium about A, 3P = P₁ + 2P₂. Substituting P₁=P₂ gives 3P = 3P₁, so P₁=P₂=P. Stress = P/A for both."
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "A 3 m long steel shaft has to transmit 7.5 kW at 3600 rpm. Required shaft diameter is given by (Take allowable shear stress = 100 N/mm², π² = 10)?",
+      "options": ["10 mm", "7.5 mm", "25 mm", "12.5 mm"],
+      "answer": "10 mm",
+      "explanation": "Power P = 2πNT/60, so Torque T = (7500 * 60) / (2π * 3600) ≈ 375/(6π) N-m. From the torsion equation T/J = τ/r, and J = πd⁴/32, we get T = (τ * πd³)/16. Solving for d³, d³ = (16T)/(πτ) = (16 * 375*10³ / (6π)) / (π * 100). With π²=10, d³ ≈ 1000 mm³. So, d = 10 mm."
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "For thin cylindrical shell structures loaded in compression, the design is based on",
+      "options": [
+        "Yield strength of material",
+        "Ultimate strength of material",
+        "Buckling strength of the structure",
+        "Shear strength of the structure"
+      ],
+      "answer": "Buckling strength of the structure",
+      "explanation": "Thin and long cylindrical structures under axial compression are prone to failure by buckling before they reach their yield strength. Therefore, buckling strength is the controlling design consideration."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "The frictional shear stress (τ) in metal forming is expressed as (where m is friction shear factor and σ is flow stress)",
+      "options": ["mσ/√3", "σ/(3m)", "σ/(m√3)", "√3σ/m"],
+      "answer": "mσ/√3",
+      "explanation": "The relationship between flow stress in uniaxial tension and shear flow stress according to the Tresca friction model is given by τ = mσ/√3."
+    },
+    {
+      "chapter": "Mechanics of Materials",
+      "question": "Governing differential equation for small deflections of elastic beams is given by",
+      "options": [
+        "EI(d²y/dx²) = M",
+        "EI(d³y/dx³) = V(x)",
+        "EI(d⁴y/dx⁴) = q(x)",
+        "All the above"
+      ],
+      "answer": "All the above",
+      "explanation": "All three equations are part of the governing differential equations for elastic beams, representing bending moment, shear force, and distributed load respectively."
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "A point moves according to the relation x = 8t² cos(ωt), y = -4t³ sin(ωt), where x and y are in meters, and t in seconds. If angular velocity ω = 8π rad/sec, the velocity vector of the point at t = 0.5 sec is given by",
+      "options": ["8 + j4π", "6 + j20π", "8 - j4π", "-20π – j6"],
+      "answer": "8 - j4π",
+      "explanation": "Differentiating x and y with respect to t gives velocity components u and v. At t=0.5s, ωt = 4π. Since sin(4π)=0 and cos(4π)=1, the velocity vector V = [16t cos(ωt) - 8t²ω sin(ωt)]i + [-12t² sin(ωt) - 4t³ω cos(ωt)]j simplifies to V = (16*0.5*1 - 0)i + (0 - 4*(0.5)³*8π*1)j = 8i - 4πj."
+    },
+    {
+      "chapter": "Machine Design",
+      "question": "A 10 mm thick plate is welded to another plate using a 10 mm fillet weld on two sides. An end load of 1 kN acts on the plate. The primary shear stress produced in the throat is",
+      "image": "/images/mechanical/isro/2017/q19.png",
+      "options": ["173 N/mm²", "2.4 N/mm²", "85 N/mm²", "None of these"],
+      "answer": "2.4 N/mm²",
+      "explanation": "The weld length is 30mm (from the diagram). Primary shear stress = Load / (2 * length * throat_thickness). Throat thickness 't' = size * cos(45). The formula given in the solution P√2 / (2bs) seems to simplify this calculation where s=size. Stress = 1000 / (2 * 30 * 0.707 * 10) = 2.35 N/mm², which is close to 2.4 N/mm²."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Isochoric changes in ideal gas are characterized by",
+      "options": ["V/T = Const", "PV = Const", "P/T = Const", "None of these"],
+      "answer": "P/T = Const",
+      "explanation": "An isochoric process is a constant volume process. From the ideal gas law PV=nRT, if V is constant, then P/T = nR/V = constant."
+    },
+    {
+      "chapter": "Vibrations",
+      "question": "A cantilever beam of length 'L' has natural frequency ω₁. If the beam is broken into halves, the natural frequency of the remaining cantilever beam ω₂ will be such that",
+      "image": "/images/mechanical/isro/2017/q21.png",
+      "options": ["ω₂ < ω₁", "ω₂ > ω₁", "ω₂ = ω₁", "Cannot be obtained from the given data"],
+      "answer": "ω₂ > ω₁",
+      "explanation": "Natural frequency ω is proportional to √(k/m). Stiffness k of a cantilever is proportional to EI/L³. If L becomes L/2, stiffness k becomes 8 times the original. Frequency is proportional to √k, so it increases. ω is inversely proportional to L², so halving the length increases the frequency by a factor of 4. The provided solution notes ω ∝ 1/L^(3/2), which also leads to an increase."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "In CAD, if the transformation matrix T is diagonal, then the transformation is called",
+      "options": ["translation", "reflection", "rotation", "scaling"],
+      "answer": "scaling",
+      "explanation": "A diagonal transformation matrix in homogeneous coordinates represents scaling. The diagonal elements correspond to the scaling factors along each axis."
+    },
+    {
+      "chapter": "Fluid Mechanics",
+      "question": "A water tank is located 3 m above ground and depth of water in tank is 2 m. Exit pipe is 50 mm in dia and 50 m long. Velocity of water at the exit at the ground level is",
+      "options": ["1.5 m/s", "2 m/s", "0.7 m/s", "This question is excluded for evaluation by the ISRO."],
+      "answer": "This question is excluded for evaluation by the ISRO.",
+      "explanation": "This question was officially excluded from evaluation, likely due to missing information (e.g., pipe friction factor) or ambiguity."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "The work ratio of a gas turbine is a function of",
+      "image": "/images/mechanical/isro/2017/q24.png",
+      "options": [
+        "temperature ratio and pressure ratio",
+        "pressure ratio",
+        "temperature ratio",
+        "none of these"
+      ],
+      "answer": "temperature ratio and pressure ratio",
+      "explanation": "The work ratio (Net Work / Turbine Work) of a Brayton cycle depends on both the pressure ratio and the temperature ratio (max temp / min temp)."
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "The temperature distribution across a 1m thick concrete wall is T = 150 - 80x + 16x². With k=0.6 W/mK and A=10 m², the heat accumulated in unit time is",
+      "options": ["768 J/sec", "384 J/sec", "96 J/sec", "192 J/sec"],
+      "answer": "192 J/sec",
+      "explanation": "Heat accumulated = Heat in - Heat out. Heat flux q = -kA(dT/dx). dT/dx = -80+32x. q_in (at x=0) = -0.6 * 10 * (-80) = 480 W. q_out (at x=1) = -0.6 * 10 * (-80+32) = 288 W. Heat accumulated = 480 - 288 = 192 J/sec."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Which one of the following is the permanent mould casting process?",
+      "options": [
+        "Investment casting process",
+        "Full mould process",
+        "Vacuum casting process",
+        "Die casting process"
+      ],
+      "answer": "Die casting process",
+      "explanation": "Die casting is a process that uses a reusable mold (a die), making it a permanent mould casting process. The others listed use expendable molds."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Identify the geometric characteristic that describe the feature geometry and the inter-relationship of part features",
+      "options": ["form tolerance", "form", "orientation tolerance", "dimension"],
+      "answer": "form",
+      "explanation": "The four fundamental geometric characteristics are size, form, orientation, and location. Form describes the shape of a feature (e.g., flatness, straightness)."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Isothermal compressibility of an ideal gas in",
+      "options": ["nR/VP", "nRT/VP²", "nR/VP²", "nRT/VP"],
+      "answer": "nRT/VP²",
+      "explanation": "Isothermal compressibility is k_T = (-1/V)(∂V/∂P)_T. For an ideal gas, V = nRT/P. So, (∂V/∂P)_T = -nRT/P². Thus, k_T = (-1/V)(-nRT/P²) = nRT/(VP²)."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Datum features on the part are",
+      "options": [
+        "permanent",
+        "temporary",
+        "either permanent or temporary",
+        "none of these"
+      ],
+      "answer": "either permanent or temporary",
+      "explanation": "Datums can be permanent features of the final part or temporary features used during manufacturing that may be removed or altered later."
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "The eigen values of A = [[2, 2, 4], [2, -1, 2], [4, 2, 2]] are.",
+      "options": ["[2, 7, 2]", "[-7, -2, -2]", "[-2, -2, 7]", "[2, -1, 2]"],
+      "answer": "[-2, -2, 7]",
+      "explanation": "The characteristic equation is |A - λI| = 0. Solving the resulting cubic equation (λ+2)(λ²-5λ-14)=0 gives the eigenvalues λ=-2, λ=-2, and λ=7."
+    },
+    {
+        "chapter": "Industrial Engineering",
+        "question": "In process charts, the symbol used for inspection is",
+        "options": ["A circle", "A square", "An arrow", "A triangle"],
+        "answer": "A square",
+        "explanation": "In process flow charts, a square symbol represents an inspection step, where an object is checked for its quality or quantity."
+    },
+    {
+        "chapter": "Thermodynamics",
+        "question": "Efficiency of gas turbines lies between",
+        "options": ["85 to 95%", "50 to 60%", "30 to 50%", "15 to 18%"],
+        "answer": "15 to 18%",
+        "explanation": "Practical gas turbines, especially older or simple cycle designs, have a relatively low thermal efficiency, typically in the range of 15% to 25%."
+    },
+    {
+        "chapter": "Fluid Mechanics",
+        "question": "Which one of the following is an impulse turbine?",
+        "options": ["Francis turbine", "Kaplan turbine", "Pelton turbine", "none of these"],
+        "answer": "Pelton turbine",
+        "explanation": "A Pelton turbine is an impulse turbine where the pressure of the fluid remains constant as it passes over the buckets. Francis and Kaplan turbines are reaction turbines."
+    },
+    {
+        "chapter": "Machine Design",
+        "question": "Which of the following is FALSE for bolted joints?",
+        "options": [
+            "Bolted joints are preloaded to avoid vibration loosening",
+            "Threads made by thread rolling are preferred over machined threads",
+            "When external load is applied, a bigger percentage relieves flange compression and the rest increases bolt tension",
+            "Bolted joints are designed such that bolt stiffness is higher than flange stiffness"
+        ],
+        "answer": "Bolted joints are designed such that bolt stiffness is higher than flange stiffness",
+        "explanation": "For a preloaded bolted joint, it is desirable for the flange stiffness to be much higher than the bolt stiffness to minimize the increase in bolt tension under external load."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "Root opening of a Single Vee groove weld joint of plate thickness 't' is",
+        "options": ["t/3", "t/4", "t/5", "t/6"],
+        "answer": "t/4",
+        "explanation": "As per standard welding code provisions, the root opening for a single Vee groove weld is typically around t/4 to allow for proper penetration."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "A cubic B-spline curve requires a minimum of ______ control points.",
+        "options": ["3", "4", "5", "6"],
+        "answer": "4",
+        "explanation": "A B-spline curve of degree 'n' (cubic is degree 3) requires at least n+1 control points. Therefore, a cubic B-spline requires a minimum of 4 control points."
+    },
+    {
+        "chapter": "Industrial Engineering",
+        "question": "Transportation method is concerned with",
+        "options": ["Value analysis", "Linear programming", "Queuing theory", "Break-even analysis"],
+        "answer": "Linear programming",
+        "explanation": "The transportation problem is a classic application of linear programming, used to find the most efficient routes to transport goods from sources to destinations."
+    },
+    {
+        "chapter": "Material Science",
+        "question": "The reaction in which a liquid phase transforms into two different solid phases is called",
+        "options": ["Eutectoid reaction", "Peritectic reaction", "Eutectic reaction", "Peritectoid reaction"],
+        "answer": "Eutectic reaction",
+        "explanation": "A eutectic reaction is an invariant reaction where a liquid phase transforms into two solid phases upon cooling (Liquid → Solid 1 + Solid 2)."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "Margin wear in a drill is due to",
+        "options": ["abrasion", "vibration", "thermal softening", "diffusion"],
+        "answer": "thermal softening",
+        "explanation": "Margin and crater wear are primarily caused by excessive heat leading to thermal softening of the tool material, while flank wear is due to abrasion."
+    },
+    {
+        "chapter": "Fluid Mechanics",
+        "question": "The specific speed of the Kaplan turbine is",
+        "options": ["2.0-5.0", "< 0.3", "0.3-2.0", "600-1000"],
+        "answer": "600-1000",
+        "explanation": "The Kaplan turbine has a very high specific speed, typically in the range of 600 to 1000, making it suitable for low head and high flow rate applications."
+    },
+    {
+        "chapter": "Engineering Mathematics",
+        "question": "If f(t) = e^(at), its Laplace Transform (for s > a) is given by",
+        "options": ["a/(s-a)²", "√π / 2(s-a)", "1/(s-a)", "Does not exist"],
+        "answer": "1/(s-a)",
+        "explanation": "The Laplace transform of e^(at) is defined as the integral from 0 to infinity of e^(at) * e^(-st) dt, which evaluates to 1/(s-a)."
+    },
+    {
+        "chapter": "Mechanics of Materials",
+        "question": "Smallest thickness which can be measured by a slip gauge is",
+        "options": ["1.001 mm", "0.01 mm", "0.001 mm", "none of these"],
+        "answer": "1.001 mm",
+        "explanation": "Standard slip gauge sets (like M112) can create dimensions in steps of 0.001 mm, but the smallest single gauge is typically 1.001 mm."
+    },
+    {
+        "chapter": "Mechanics of Materials",
+        "question": "The deflection of an elastic member at the point of application of a force in the direction of that force is given by the derivative of member's total strain energy taken with respect to the applied force. This is known as",
+        "options": [
+            "Principle of conservation of strain energy",
+            "Castigliano's theorem",
+            "Conservation of momentum",
+            "Saint-Venant's Principle"
+        ],
+        "answer": "Castigliano's theorem",
+        "explanation": "This is the statement of Castigliano's first theorem, which relates the partial derivative of strain energy with respect to a force to the displacement at the point of application of that force."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "Thumb rule between feed and nose radius in rough turning is",
+        "options": ["f = 0.3r", "f = 0.5r", "f = 0.7r", "f = 0.9r"],
+        "answer": "f = 0.5r",
+        "explanation": "A common rule of thumb for connecting feed (f) and nose radius (r) in rough turning operations is f (mm/rev) ≈ 0.5 × Nose radius."
+    },
+    {
+        "chapter": "Theory of Machines",
+        "question": "Which of the following is FALSE?",
+        "options": [
+            "A reverted gear train is one in which the first and last gears are on the same axis.",
+            "Train value for a gear is the ratio of product of driven tooth numbers to product of driving tooth numbers.",
+            "A planetary gear train is one in which the axes of some of the gears may have a motion.",
+            "A compound gear train is one which has two or more gears on each axis."
+        ],
+        "answer": "Train value for a gear is the ratio of product of driven tooth numbers to product of driving tooth numbers.",
+        "explanation": "Train value is the reciprocal of the speed ratio. It is defined as the ratio of the product of driving tooth numbers to the product of driven tooth numbers."
+    },
+    {
+        "chapter": "Mechanics of Materials",
+        "question": "Which of the following is true for ductile materials?",
+        "image": "/images/mechanical/isro/2017/q46.png",
+        "options": [
+            "Engineering stress-strain curve cannot have negative slope",
+            "Most applicable failure theory is maximum principal stress theory",
+            "Ultimate strain is the strain at ultimate stress",
+            "Strain hardening is represented by a negative slope in engineering stress strain curve"
+        ],
+        "answer": "Ultimate strain is the strain at ultimate stress",
+        "explanation": "The ultimate strain corresponds to the point of ultimate tensile stress (UTS) on the stress-strain curve. Statements (a), (b), and (d) are incorrect."
+    },
+    {
+        "chapter": "Machine Design",
+        "question": "The specific metal cutting energy is expressed as (where α is rake angle, β is friction angle, φ is shear angle and τ is shear stress)",
+        "options": [
+            "τ cos(β-α) / [sinφ cos(φ+β-α)]",
+            "τ sin(β-α) / [sinφ cos(φ-β+α)]",
+            "τ cos(α-β) / [sinφ cos(φ-β+α)]",
+            "τ sin(α-β) / [sinφ cos(φ+β-α)]"
+        ],
+        "answer": "τ cos(β-α) / [sinφ cos(φ+β-α)]",
+        "explanation": "Specific cutting energy (Uc) is the cutting force (Fc) per unit material removal rate (MRR). The expression for Fc derived from Merchant's circle analysis leads to this formula for Uc."
+    },
+    {
+        "chapter": "Mechanics of Materials",
+        "question": "For isotropic materials, the modulus of Elasticity in tension and shear (E and G) are related to the Poisson's ratio (v) as follows",
+        "options": ["E = G / 2(1+v)", "G = E / 2(1+v)", "G = E / 2(1-v)", "E = G / 2(1-v)"],
+        "answer": "G = E / 2(1+v)",
+        "explanation": "The relationship between Young's Modulus (E), Shear Modulus (G), and Poisson's ratio (v) for an isotropic material is E = 2G(1+v), which can be rearranged to G = E / 2(1+v)."
+    },
+    {
+        "chapter": "Engineering Mechanics",
+        "question": "Which of the following is NOT true?",
+        "options": [
+            "For direct impact of two bodies, coefficient of restitution is the ratio of relative velocity of approach to their relative velocity of separation",
+            "Conservation of angular momentum implies that total angular momentum remains constant unless acted on by an external torque",
+            "Conservation of linear momentum implies that the sum of external forces in that direction is zero",
+            "The coefficient of friction is independent of area of contact"
+        ],
+        "answer": "For direct impact of two bodies, coefficient of restitution is the ratio of relative velocity of approach to their relative velocity of separation",
+        "explanation": "The coefficient of restitution is the ratio of the relative velocity of separation to the relative velocity of approach, not the other way around."
+    },
+    {
+        "chapter": "Engineering Mechanics",
+        "question": "A block (4x3 m size) of 20 kg mass rests on a flat horizontal surface. If the coefficient of friction is 1/4, the force 'F' which will cause the block to move is approximately",
+        "image": "/images/mechanical/isro/2017/q50.png",
+        "options": ["20 kgf", "10 kgf", "5 kgf", "8.7 kgf"],
+        "answer": "5 kgf",
+        "explanation": "The normal force N = mg - Fsin(30). Friction force f = μN = 0.25(200 - 0.5F). For motion, Fcos(30) > f. So, 0.866F > 50 - 0.125F. This gives 0.991F > 50, so F > 50.45 N, which is approximately 5.04 kgf."
+    },
+    {
+        "chapter": "Engineering Mathematics",
+        "question": "A point P moves along the path y = x² – 4. What is the displacement when the point moves from x = 1 to x = 3?",
+        "options": [
+            "8.24, @tan⁻¹(4)°",
+            "2, @tan⁻¹(1)°",
+            "11.3, @tan⁻¹(4)°",
+            "11.3, @tan⁻¹(1)°"
+        ],
+        "answer": "8.24, @tan⁻¹(4)°",
+        "explanation": "At x₁=1, y₁ = 1²-4 = -3. At x₂=3, y₂ = 3²-4 = 5. Displacement = √((x₂-x₁)² + (y₂-y₁)² ) = √((3-1)² + (5-(-3))²) = √(2² + 8²) = √68 ≈ 8.24. The angle is tan⁻¹((y₂-y₁)/(x₂-x₁)) = tan⁻¹(8/2) = tan⁻¹(4)."
+    },
+    {
+        "chapter": "Engineering Mechanics",
+        "question": "The pulley system has a mass of 1.5 kg and radius of gyration of 0.2 m. The angular acceleration of the pulleys, when the suspended masses are released is",
+        "image": "/images/mechanical/isro/2017/q52.png",
+        "options": ["5 rad/sec²", "10/1.3 rad/sec²", "15/1.3 rad/sec²", "10 rad/sec²"],
+        "answer": "10/1.3 rad/sec²",
+        "explanation": "The total moment of inertia I_total = I₁ + I₂ + I₃ = 0.06 + 0.04 + 0.03 = 0.13 kg-m². The net torque τ = m₃gr₃ - m₂gr₂ = 3*10*0.1 - 1*10*0.2 = 3 - 2 = 1 N-m. Angular acceleration α = τ / I_total = 1 / 0.13 = 100/13 ≈ 10/1.3 rad/sec²."
+    },
+    {
+        "chapter": "Fluid Mechanics",
+        "question": "A U tube manometer is used to measure the gauge pressure of water (density = 1000 kg/m³). If the density of manometer liquid is 12000 kg/m³, h1 = 0.5m & h2 = 1.0m, gauge pressure at 'A' is",
+        "image": "/images/mechanical/isro/2017/q53.png",
+        "options": ["125 kPa", "115 kPa", "60 kPa", "5 kPa"],
+        "answer": "115 kPa",
+        "explanation": "Balancing pressures at the interface: P_A + ρ₁gh₁ = P₀ + ρ₂gh₂. For gauge pressure, P₀=0. P_A = ρ₂gh₂ - ρ₁gh₁ = (12000*10*1.0) - (1000*10*0.5) = 120000 - 5000 = 115000 Pa = 115 kPa."
+    },
+    {
+        "chapter": "Engineering Mathematics",
+        "question": "A man draws 3 balls from a jug containing 5 white and 7 black balls. He gets Rs. 20 for each white ball and Rs. 10 for each black ball. What is his expectation?",
+        "options": ["Rs. 21.25", "Rs. 42.50", "Rs. 31.25", "Rs. 45.21"],
+        "answer": "Rs. 42.50",
+        "explanation": "This requires calculating the expected value by summing the product of each outcome's value and its probability. The calculation results in an expected value of Rs. 42.50."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "The missing dimension in the following simple part is",
+        "image": "/images/mechanical/isro/2017/q55.png",
+        "options": ["11.5 ± 1.5", "11.5 ± 2.5", "11.5 ± 3.5", "11.5 ± 4.5"],
+        "answer": "11.5 ± 3.5",
+        "explanation": "This is a tolerance stack-up problem. AB_avg = 57 - 17 - 17.5 - 11 = 11.5. The tolerance is the sum of individual tolerances: 1.5(CD)+0.5(EA)+0.5(GF)+0.5(BG) = 3.5. So, AB = 11.5 ± 3.5."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "Which one of the following is FALSE about Boronizing process?",
+        "options": [
+            "it is pack cementation process",
+            "it can be done only on high carbon steels",
+            "it is used to obtain extremely high wear resistant surfaces",
+            "it leads to high distortion"
+        ],
+        "answer": "it can be done only on high carbon steels",
+        "explanation": "Boronizing (or boriding) can be applied to a wide range of materials, including low-carbon steels, tool steels, and nickel-based alloys, not just high-carbon steels."
+    },
+    {
+        "chapter": "Industrial Engineering",
+        "question": "In dynamic balancing of machines, which of the following is NOT a method of measuring the magnitude and location of correction weight for a two plane correction?",
+        "options": ["Pivoted cradle method", "Mechanical compensation method", "Pivoted compensation method", "Nodal point method"],
+        "answer": "Pivoted compensation method",
+        "explanation": "Pivoted compensation method is not a standard recognized method for dynamic balancing. The other three are established techniques."
+    },
+    {
+        "chapter": "Mechanics of Materials",
+        "question": "The stress produced in a wire of diameter 6 mm, when it is bent around a large cylinder of diameter 2 m can be obtained as (Young's modulus = 200 GPa)",
+        "image": "/images/mechanical/isro/2017/q58.png",
+        "options": ["600 MPa", "300 MPa", "100 MPa", "200 MPa"],
+        "answer": "300 MPa",
+        "explanation": "The bending stress is σ = E * y / R. Here, y = d/2 = 3 mm, and R = D/2 = 1000 mm. σ = 200,000 MPa * 3 / 1000 = 600 MPa. However, the stress-strain curve shows a yield point at 300 MPa. The wire will yield, and the stress will be limited to 300 MPa."
+    },
+    {
+        "chapter": "Thermodynamics",
+        "question": "The critical pressure ratio for maximum discharge in a steam nozzle is (where 'γ' is the isentropic index)",
+        "options": ["(2/(γ+1))", "(2/(γ+1))^(γ/(γ-1))", "(2/(γ+1))^(2/(γ-1))", "(2/(γ+1))^( (γ-1)/γ )"],
+        "answer": "(2/(γ+1))^(γ/(γ-1))",
+        "explanation": "The critical pressure ratio (P*/P₀) for isentropic flow through a nozzle that maximizes the mass flow rate is given by the formula (2/(γ+1))^(γ/(γ-1))."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "The type of locator used to prevent jamming during locating of a work piece is",
+        "options": ["concentric locator", "integral locator", "equilateral locator", "spherical locator"],
+        "answer": "spherical locator",
+        "explanation": "Spherical locators have a small contact area, which prevents jamming and binding, especially when locating from holes or internal features."
+    },
+    {
+        "chapter": "Engineering Mechanics",
+        "question": "A carton carrying vessel of mass 10 tons floats on water. If the vessel tilts by 0.01 radians by moving a 50 kg carton from the centre by 2m, the metacentric height is",
+        "options": ["1 m", "3 m", "1.5 m", "2 m"],
+        "answer": "1 m",
+        "explanation": "The tilting moment is w * x = 50kg * 10m/s² * 2m = 1000 N-m. The restoring moment is W * GM * sin(θ) ≈ W * GM * θ. Equating them, 1000 = (10,000kg * 10m/s²) * GM * 0.01. This gives GM = 1000 / 1000 = 1 m."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "The maximum value of reduction in rolling process is (Where 'D' is roll diameter and 'α' is the angle of bite)",
+        "options": ["D(1-cosα)/2", "D(1-cosα)/2", "D(1-sinα)", "D(1-sinα)/2"],
+        "answer": "This question is excluded for evaluation by the ISRO.",
+        "explanation": "The correct formula for draft or reduction (Δh) is Δh = 2R(1-cosα) or D(1-cosα). The options seem to be variations of this, but the question was excluded from evaluation by ISRO, likely due to ambiguity or errors in the options."
+    },
+    {
+        "chapter": "Vibrations",
+        "question": "Which of the following is TRUE for vibration of a mechanical system",
+        "image": "/images/mechanical/isro/2017/q63.png",
+        "options": [
+            "Damping ratio is the ratio of the critical damping to the actual damping",
+            "The damping can be obtained using logarithmic decrement method",
+            "For damped systems, amplitude becomes infinity at resonance",
+            "Amplitude ratio is unity when the exciting force frequency is √2 times the natural frequency"
+        ],
+        "answer": "Amplitude ratio is unity when the exciting force frequency is √2 times the natural frequency",
+        "explanation": "(d) is correct. For a transmissibility calculation, when the frequency ratio (ω/ωn) is √2, the transmissibility T.R. becomes 1, regardless of the damping ratio."
+    },
+    {
+        "chapter": "Thermodynamics",
+        "question": "What is the maximum rate that a heat pump which uses 1 kW of electric power can supply heat to a house at 27°C when the outside temperature is 12°C",
+        "image": "/images/mechanical/isro/2017/q64.png",
+        "options": ["50 J/s", "25 kJ/s", "20 kJ/s", "30 J/s"],
+        "answer": "20 kJ/s",
+        "explanation": "The maximum Coefficient of Performance (COP) for a heat pump is given by T_H / (T_H - T_L), where temperatures are in Kelvin. T_H = 27+273=300K, T_L = 12+273=285K. COP = 300 / (300-285) = 20. The rate of heat supply Q_H = COP * W_in = 20 * 1 kW = 20 kW = 20 kJ/s."
+    },
+    {
+        "chapter": "Engineering Mathematics",
+        "question": "Evaluate the integral ∫∫(1-x²)^(-1/2) (1-y²)^(-1/2) dx dy over the region x=0 to 1, y=0 to 1.",
+        "options": ["π/2", "π/4", "π²/2", "π²/4"],
+        "answer": "π²/4",
+        "explanation": "The double integral is separable: [∫(1-x²)^(-1/2) dx] * [∫(1-y²)^(-1/2) dy]. The integral of (1-t²)^(-1/2) is sin⁻¹(t). Evaluating from 0 to 1 gives sin⁻¹(1) - sin⁻¹(0) = π/2. Since both integrals are identical, the result is (π/2) * (π/2) = π²/4."
+    },
+    {
+        "chapter": "Material Science",
+        "question": "White iron structure consists of",
+        "options": ["Pearlite", "Cementite", "Ferrite", "Pearlite and Cementite"],
+        "answer": "Pearlite and Cementite",
+        "explanation": "The structure of white cast iron consists of pearlite and a large amount of cementite (iron carbide), often in a eutectic mixture called ledeburite. This high cementite content makes it very hard and brittle."
+    },
+    {
+        "chapter": "Mechanics of Materials",
+        "question": "A cantilever beam of rectangular cross section (d x b) is subjected to a shear force 'F'. Which of the following is TRUE?",
+        "image": "/images/mechanical/isro/2017/q67.png",
+        "options": [
+            "The beam has a uniform shear stress F/bd",
+            "Maximum shear stress and maximum bending stress are equal when L=d/2",
+            "For L > d/2, bending stress decides the failure",
+            "Bending stress is independent of 'b'"
+        ],
+        "answer": "For L > d/2, bending stress decides the failure",
+        "explanation": "The maximum shear stress is 1.5 * (F/A) and the maximum bending stress is (FL * d/2) / I. As the length L increases, the bending stress increases linearly while the shear stress remains constant, making bending the dominant failure mode for longer beams."
+    },
+    {
+        "chapter": "Thermodynamics",
+        "question": "A jet engine consumes 1 kg of fuel for each 40 kg of air. Fuel consumption is 1 kg/sec. When aircraft travels at 200 m/sec, velocity of discharge gases is 700 m/sec. The power developed by the engine is",
+        "options": ["7200 kW", "5600 kW", "2070 kW", "4140 kW"],
+        "answer": "4140 kW",
+        "explanation": "Thrust F = (ṁ_a + ṁ_f)V_e - ṁ_a*V_a = (40+1)*700 - 40*200 = 28700 - 8000 = 20700 N. Power = F * V_a = 20700 N * 200 m/s = 4,140,000 W = 4140 kW."
+    },
+    {
+        "chapter": "Thermodynamics",
+        "question": "Which of the following is most appropriate for vapour power cycles?",
+        "options": [
+            "In Carnot cycle, expansion of vapour occurs without change in entropy",
+            "In Rankine cycle, transformation of liquid water in steam generator occurs at constant temperature",
+            "In Carnot cycle heating of vapor occurs at constant volume",
+            "In Rankine cycle, entropy of vapor increases during its expansion in steam turbine"
+        ],
+        "answer": "In Carnot cycle, expansion of vapour occurs without change in entropy",
+        "explanation": "The expansion and compression processes in a Carnot cycle are isentropic (constant entropy). The other statements are incorrect descriptions of Rankine and Carnot cycles."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "The Load Vs Displacement curve shown in the figure pertains to",
+        "image": "/images/mechanical/isro/2017/q70.png",
+        "options": ["Extrusion", "Bending", "Blanking", "Coining"],
+        "answer": "Blanking",
+        "explanation": "The curve shows an initial increase in force, followed by a sharp drop after the material fractures. This characteristic shape is typical of a shearing operation like blanking."
+    },
+    {
+        "chapter": "Thermodynamics",
+        "question": "The reheat factor Rf for a steam turbine is usually in the range of",
+        "image": "/images/mechanical/isro/2017/q71.png",
+        "options": ["0 to 1", "1 to 1.065", "2 to 2.065", "5 to 10"],
+        "answer": "1 to 1.065",
+        "explanation": "The reheat factor represents the increase in cumulative enthalpy drop due to reheating, which makes it slightly greater than 1, typically in the range of 1.02 to 1.06."
+    },
+    {
+        "chapter": "Industrial Engineering",
+        "question": "Adaptive response rate forecasting is related to",
+        "options": ["Production Planning", "Production Scheduling", "Value analysis", "Inventory control"],
+        "answer": "Inventory control",
+        "explanation": "Adaptive response rate forecasting is a technique for estimating demand in inventory control systems, particularly for items with changing demand patterns."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "Process in which lowest tolerances in cast products of ferrous and non ferrous metals can be achieved is",
+        "options": ["Die casting", "Shell casting", "Investment casting", "Sand casting"],
+        "answer": "Investment casting",
+        "explanation": "Investment casting (also known as lost-wax casting) is capable of producing parts with very high dimensional accuracy and tight tolerances, superior to other casting methods."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "Pickling treatment is cleaning the casting with",
+        "options": ["Soda ash", "Dilute acid", "Compressed air and sand particles", "Iron shots"],
+        "answer": "Dilute acid",
+        "explanation": "Pickling is a metal surface treatment that uses a dilute acid solution (pickle liquor) to remove impurities like stains, rust, or scale."
+    },
+    {
+        "chapter": "Material Science",
+        "question": "Element which makes steel stainless",
+        "options": ["Mg", "Ni", "C", "Cr"],
+        "answer": "Cr",
+        "explanation": "Chromium (Cr) is the key alloying element that makes steel 'stainless' by forming a passive, corrosion-resistant chromium oxide layer on the surface. A minimum of 10.5% Cr is required."
+    },
+    {
+        "chapter": "Thermodynamics",
+        "question": "Isentropic process is related to",
+        "options": ["Adiabatic Expansion", "Reversible Adiabatic Expansion", "Isothermal Expansion", "Reversible Isothermal Expansion"],
+        "answer": "Reversible Adiabatic Expansion",
+        "explanation": "An isentropic process is one that is both adiabatic (no heat transfer) and reversible (no entropy generation). This combination results in a constant entropy process."
+    },
+    {
+        "chapter": "Manufacturing",
+        "question": "Tolerances generally followed for tooling design are",
+        "options": ["5-10% of work piece tolerance", "11-30% of work piece tolerance", "31-50% of work piece tolerance", "none of these"],
+        "answer": "31-50% of work piece tolerance",
+        "explanation": "Tooling and gauge design often follows the 'rule of ten', where the gauge tolerance is 10% of the workpiece tolerance. However, for tooling design itself, a wider range such as 31-50% is often cited in textbooks."
+    },
+    {
+        "chapter": "Engineering Mathematics",
+        "question": "Which of the following is FALSE about Normal distribution?",
+        "image": "/images/mechanical/isro/2017/q78.png",
+        "options": [
+            "Normal Distribution is applied for discrete Random Distribution",
+            "The shape of the Normal Curve is Bell Shaped",
+            "The area under a standard normal curve is 1",
+            "The standard normal curve is symmetric about the value 0"
+        ],
+        "answer": "Normal Distribution is applied for discrete Random Distribution",
+        "explanation": "The Normal Distribution is used for continuous random variables, not discrete ones. Distributions like the Binomial or Poisson are used for discrete variables."
+    },
+    {
+        "chapter": "Thermodynamics",
+        "question": "The temperature of the products of combustion when the maximum amount of chemical energy is converted to thermal energy is",
+        "options": [
+            "Higher than adiabatic flame temperature",
+            "Lower than adiabatic flame temperature",
+            "Equal to adiabatic flame temperature",
+            "Independent of adiabatic flame temperature"
+        ],
+        "answer": "Equal to adiabatic flame temperature",
+        "explanation": "The adiabatic flame temperature is the maximum possible temperature achieved for a given fuel and oxidizer, which occurs when the combustion is complete (stoichiometric) and there are no heat losses."
+    },
+    {
+        "chapter": "Industrial Engineering",
+        "question": "Fredric W Taylor introduced a system of working known as",
+        "options": ["line organization", "effective organization", "functional organization", "none of the above"],
+        "answer": "functional organization",
+        "explanation": "F.W. Taylor, the father of scientific management, advocated for functional organization, where workers receive orders from several different specialist supervisors, each with expertise in a specific area."
+    }
+  ]
+}

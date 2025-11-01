@@ -1,0 +1,14 @@
+{
+  "subjects": [
+    { "name": "Engineering Mechanics", "topics": "Statics, Dynamics, Kinematics of Particles and Rigid Bodies." },
+    { "name": "Mechanics of Materials", "topics": "Stress, Strain, Bending, Torsion, Deflection." },
+    { "name": "Theory of Machines", "topics": "Kinematics and Dynamics of Machines, Vibrations." },
+    { "name": "Machine Design", "topics": "Design of machine elements like gears, bearings, shafts." },
+    { "name": "Thermodynamics", "topics": "Laws of Thermodynamics, Cycles, Properties of Substances." },
+    { "name": "Fluid Mechanics", "topics": "Fluid properties, Flow analysis, Bernoulli's equation." },
+    { "name": "Heat Transfer", "topics": "Conduction, Convection, Radiation." },
+    { "name": "Manufacturing Engineering", "topics": "Casting, Forming, Joining, Machining processes." },
+    { "name": "Industrial Engineering", "topics": "Operations research, Production planning, Quality control." }
+  ],
+  "note": "Detailed syllabus for each subject will be available soon."
+}

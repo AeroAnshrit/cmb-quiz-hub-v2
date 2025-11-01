@@ -1,0 +1,27 @@
+
+{
+  "years": [
+    "2020",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2011",
+    "2009",
+    "2008",
+    "2007"
+  ],
+  "topics": [
+    "data_structures",
+    "algorithms",
+    "operating_systems",
+    "databases",
+    "computer_networks",
+    "digital_logic",
+    "compiler_design",
+    "theory_of_computation",
+    "computer_organization"
+  ]
+}

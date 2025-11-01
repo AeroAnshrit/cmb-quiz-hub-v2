@@ -1,0 +1,44 @@
+{
+  "subjects": [
+    {
+        "name": "Electric Circuits",
+        "topics": "Network theorems, transient analysis, phasors"
+    },
+    {
+        "name": "EM Fields",
+        "topics": "Maxwell’s equations, wave propagation"
+    },
+    {
+        "name": "Signals & Systems",
+        "topics": "Laplace, Fourier, convolution, sampling"
+    },
+    {
+        "name": "Electrical Machines",
+        "topics": "Transformers, motors, generators"
+    },
+    {
+        "name": "Power Systems",
+        "topics": "Transmission, distribution, fault analysis, stability"
+    },
+    {
+        "name": "Control Systems",
+        "topics": "Transfer functions, stability, PID, state-space"
+    },
+    {
+        "name": "Analog Electronics",
+        "topics": "Diodes, transistors, amplifiers, op-amps"
+    },
+    {
+        "name": "Digital Electronics",
+        "topics": "Logic gates, flip-flops, counters, ADC/DAC"
+    },
+    {
+        "name": "Power Electronics",
+        "topics": "Converters, inverters, rectifiers"
+    },
+    {
+        "name": "Electrical Measurements",
+        "topics": "Bridges, transducers, instrumentation"
+    }
+  ]
+}

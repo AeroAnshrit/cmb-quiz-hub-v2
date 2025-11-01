@@ -1,0 +1,22 @@
+
+{
+  "id": "computer-science-001",
+  "category": "Computer Science",
+  "title": "Data Structures & Algorithms",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which data structure uses LIFO (Last-In, First-Out)?",
+      "options": ["Queue", "Stack", "Linked List", "Tree"],
+      "answer": 1,
+      "explanation": "A Stack is a linear data structure which follows a particular order in which the operations are performed. The order is LIFO(Last In First Out)."
+    },
+    {
+      "id": "q2",
+      "question": "What is the time complexity of a binary search algorithm?",
+      "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+      "answer": 1,
+      "explanation": "Binary search has a time complexity of O(log n) because it halves the search space with each comparison, making it very efficient for sorted arrays."
+    }
+  ]
+}

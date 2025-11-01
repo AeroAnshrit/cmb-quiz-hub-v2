@@ -1,0 +1,27 @@
+
+{
+  "title": "ISRO Scientist/Engineer CS - 2014",
+  "questions": [
+    {
+      "chapter": "Computer Organization",
+      "question": "Consider a 33 MHz CPU based system. What is the number of wait states required if it is interfaced with a 60ns memory? Assume a maximum of 10ns delay for additional circuitry like buffering and decoding.",
+      "options": ["0", "1", "2", "3"],
+      "answer": "2",
+      "explanation": "CPU clock period = 1 / 33 MHz ≈ 30.3 ns. Total memory access time required = 60ns (memory) + 10ns (delay) = 70ns. Number of clock cycles needed = 70ns / 30.3ns ≈ 2.31 cycles. This means 3 clock cycles are needed. Number of wait states = (Cycles needed - 1) = 3 - 1 = 2."
+    },
+    {
+      "chapter": "Theory of Computation",
+      "question": "The number of states required by a Finite State Machine, to simulate the behaviour of a computer with a memory capable of storing 'm' words, with each word being 'n' bits long is",
+      "options": ["m x 2ⁿ", "2ᵐⁿ", "2ᵐⁿ", "m+n"],
+      "answer": "m x 2ⁿ",
+      "explanation": "The question is ambiguous, but a common interpretation is that each of the 'm' words can be in one of 2ⁿ possible states, leading to m * 2ⁿ total configurations. The provided answer seems to follow this logic, though it's not a standard FSM definition."
+    },
+    {
+      "chapter": "Programming",
+      "question": "What is the output of the following C program? #include<stdio.h> #define SQR(x) (x*x) int main() { int a; int b=4; a = SQR(b+2); printf('%d\\n',a); return 0;}",
+      "options": ["14", "36", "18", "20"],
+      "answer": "14",
+      "explanation": "The macro SQR(x) (x*x) will expand SQR(b+2) to (b+2*b+2). With b=4, this becomes (4+2*4+2) = 4+8+2 = 14. This is a classic example of why macros should have their arguments parenthesized: #define SQR(x) ((x)*(x))."
+    }
+  ]
+}

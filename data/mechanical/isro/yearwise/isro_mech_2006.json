@@ -1,0 +1,20 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2006",
+  "questions": [
+    {
+      "chapter": "Material Science",
+      "question": "Which material has the highest value of Poisson's ratio?",
+      "options": ["Rubber", "Steel", "Glass", "Copper"],
+      "answer": "Rubber",
+      "explanation": "Rubber has the highest value of Poisson's ratio, which is close to 0.5, indicating it's nearly incompressible."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "The efficiency of a Carnot engine depends upon?",
+      "options": ["The working substance", "The temperatures of the source and sink", "The design of the engine", "The type of fuel used"],
+      "answer": "The temperatures of the source and sink",
+      "explanation": "The efficiency of a Carnot engine is solely dependent on the absolute temperatures of the hot source (T1) and the cold sink (T2), given by the formula η = 1 - (T2/T1)."
+    }
+  ]
+}

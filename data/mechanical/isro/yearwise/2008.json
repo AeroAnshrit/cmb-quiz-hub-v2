@@ -1,0 +1,84 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2008",
+  "questions": [
+    {
+      "chapter": "Material Science",
+      "question": "The ultimate tensile strength and yield strength of most of the metals, when temperature falls from 0 to -150°C will",
+      "image": "",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Remain same",
+        "First increase and then decrease"
+      ],
+      "answer": "Increase",
+      "explanation": "For most metals, both yield strength and ultimate tensile strength increase as the temperature decreases into cryogenic ranges. The material becomes stronger but often less ductile."
+    },
+    {
+      "chapter": "Material Science",
+      "question": "'Troosite' is obtained when",
+      "image": "",
+      "options": [
+        "Quenching steel during transformation",
+        "A fully hardened steel is finally drawn at about 677°C",
+        "Steel is rapidly quenched in oil",
+        "When alloy steels are rapidly quenched in water"
+      ],
+      "answer": "Quenching steel during transformation",
+      "explanation": "Troostite is a microconstituent of steel that is formed by quenching during transformation from austenite. It is a very fine pearlite that is difficult to resolve with an optical microscope."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Induction hardening is the process of",
+      "image": "",
+      "options": [
+        "Hardening the core",
+        "Uniform hardening",
+        "Selective hardening",
+        "Hardening surface for wear resistance"
+      ],
+      "answer": "Hardening surface for wear resistance",
+      "explanation": "Induction hardening is a surface hardening process used to increase the wear resistance, surface hardness, and fatigue life of steel parts through a process of induction heating followed by quenching."
+    },
+    {
+      "chapter": "Nuclear Engineering",
+      "question": "Heavy water is used in atomic power plants as",
+      "image": "",
+      "options": [
+        "Fuel",
+        "Source of energy",
+        "Lubricant",
+        "Moderator"
+      ],
+      "answer": "Moderator",
+      "explanation": "Heavy water (D₂O) is used as a neutron moderator in some types of nuclear reactors. Its purpose is to slow down fast neutrons so that they are more likely to cause fission."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Which one is not the purpose of heat treatment of steels?",
+      "image": "",
+      "options": [
+        "Changing the composition of steel on the surface",
+        "Changing the percentage of carbon and Si in the bulk.",
+        "Increasing or decreasing the grain size",
+        "Removing undesirable residual stresses"
+      ],
+      "answer": "Changing the percentage of carbon and Si in the bulk.",
+      "explanation": "Heat treatment alters the microstructure and properties of steel but does not change its bulk chemical composition (like the overall percentage of Carbon or Silicon)."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "A cold chisel is made of",
+      "image": "",
+      "options": [
+        "Mild steel",
+        "Cast iron",
+        "H.S.S.",
+        "High carbon steel"
+      ],
+      "answer": "High carbon steel",
+      "explanation": "Cold chisels are made from high carbon steel, which can be hardened and tempered to provide a sharp, durable cutting edge capable of cutting cold metals."
+    }
+  ]
+}

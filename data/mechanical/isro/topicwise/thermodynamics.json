@@ -1,0 +1,17 @@
+{
+  "title": "ISRO Mechanical - Thermodynamics",
+  "questions": [
+    {
+      "chapter": "Thermodynamics",
+      "question": "What is the first law of thermodynamics?",
+      "options": [
+        "Energy cannot be created or destroyed",
+        "Entropy of the universe always increases",
+        "Absolute zero temperature is unattainable",
+        "Heat flows from hot to cold"
+      ],
+      "answer": "Energy cannot be created or destroyed",
+      "explanation": "The first law of thermodynamics is a version of the law of conservation of energy, adapted for thermodynamic processes."
+    }
+  ]
+}

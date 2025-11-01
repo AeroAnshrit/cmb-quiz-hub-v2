@@ -1,0 +1,14 @@
+{
+  "subjects": [
+    { "name": "Digital Logic", "topics": "Boolean algebra, combinational and sequential circuits." },
+    { "name": "Computer Organization & Architecture", "topics": "Machine instructions, memory hierarchy, pipelining." },
+    { "name": "Programming and Data Structures", "topics": "Programming in C; Arrays, stacks, queues, linked lists, trees." },
+    { "name": "Algorithms", "topics": "Searching, sorting, hashing, asymptotic analysis." },
+    { "name": "Theory of Computation", "topics": "Regular expressions, finite automata, context-free grammars." },
+    { "name": "Compiler Design", "topics": "Lexical analysis, parsing, syntax-directed translation." },
+    { "name": "Operating Systems", "topics": "Processes, threads, memory management, file systems." },
+    { "name": "Databases", "topics": "ER-model, relational model, SQL, normalization." },
+    { "name": "Computer Networks", "topics": "OSI and TCP/IP layers, routing, flow control." }
+  ],
+  "note": "Detailed syllabus topics for each subject will be added soon."
+}

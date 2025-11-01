@@ -1,0 +1,45 @@
+
+{
+  "title": "ISRO Scientist/Engineer ME - 2014",
+  "questions": [
+    {
+      "chapter": "Material Science",
+      "question": "Shock resisting steel should have higher?",
+      "image": "",
+      "options": [
+        "stiffness",
+        "hardness",
+        "toughness",
+        "shear strength"
+      ],
+      "answer": "toughness",
+      "explanation": "Shock resisting steels are a specialized class of tool steels with very high impact toughness and relatively low abrasion resistance. Toughness is the ability of a material to absorb energy and plastically deform without fracturing."
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "Which of the following is the correct definition of the Reynolds number? Where ρ = fluid density, U = velocity, L = Length and µ = Kinematic viscosity",
+      "image": "",
+      "options": [
+        "ρUL/µ",
+        "ρUL/µ²",
+        "UL/µ",
+        "ρUL²/µ"
+      ],
+      "answer": "UL/µ",
+      "explanation": "The Reynolds number is defined as Re = UL/ν, where ν is the kinematic viscosity. The question incorrectly states µ as kinematic viscosity but provides options that imply it might be dynamic viscosity. If µ were dynamic viscosity, the answer would be ρUL/µ. Given the options and the definition using kinematic viscosity, the correct form is UL/ν (or UL/µ if µ is taken as kinematic viscosity)."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "A steam engine intakes 100 gm of steam at 100°C per minute and cools it down to 20°C. Calculate the heat rejected by the steam engine per minute (consider Latent Heat of vaporization of steam = 540 cal/gm and cp = 1 cal/gm°C)",
+      "image": "",
+      "options": [
+        "6.2 × 10⁴ kcal",
+        "62 × 10⁴ cal",
+        "6.2 × 10⁴ cal",
+        "620 × 10⁴ kcal"
+      ],
+      "answer": "6.2 × 10⁴ cal",
+      "explanation": "The total heat rejected (QR) is the sum of the latent heat of condensation and the sensible heat of cooling the water. QR = m*L_v + m*c_p*ΔT = 100gm * 540 cal/gm + 100gm * 1 cal/gm°C * (100°C - 20°C) = 54000 cal + 8000 cal = 62000 cal = 6.2 x 10⁴ cal."
+    }
+  ]
+}

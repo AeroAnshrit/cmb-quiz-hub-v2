@@ -1,0 +1,741 @@
+{
+  "title": "ISRO Scientist/Engineer ME - 2015",
+  "questions": [
+    {
+      "subject": "Engineering Mathematics",
+      "question": "The value of y as t → ∞ for an initial value of y(1) = 0, for the differential equation (4t² + 1) dy/dt + 8yt - t = 0, is",
+      "options": ["1", "1/2", "1/4", "1/8"],
+      "answer": "1/8",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Mechanics",
+      "question": "A shell is fired from a cannon with a speed 'v' at an angle θ with the horizontal direction as shown in the figure. At the highest point in its path, it explodes into two pieces of equal mass. One of the pieces retraces its path to the cannon. The speed of the other piece immediately after the explosion is",
+      "image": "/images/mechanical/isro/2015/q2.png",
+      "options": ["3v cosθ", "2v cosθ", "3/2 v cosθ", "√3/2 v cosθ"],
+      "answer": "3v cosθ",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "question": "The point of contra flexure is a point where",
+      "options": [
+        "Shear force changes sign",
+        "Bending moment changes sign",
+        "Bending moment is maximum",
+        "None of the above"
+      ],
+      "answer": "Bending moment changes sign",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Mechanics",
+      "question": "A mass of 35 kg is suspended from a weightless bar AB which is supported by a cable CB and a pin at A as shown in the figure. The pin reactions at A on the bar AB are",
+      "image": "/images/mechanical/isro/2015/q4.png",
+      "options": [
+        "Rx = 343.4 N, Ry = 755.4 N",
+        "Rx = 343.4 N, Ry = 0",
+        "Rx = 755.4 N, Ry = 343.4 N",
+        "Rx = 755.4 N, Ry = 0"
+      ],
+      "answer": "Rx = 755.4 N, Ry = 0",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Mechanics",
+      "question": "A simple structure ABCDE is supported on a hinge at A and on rollers at B while it carries a horizontal force of 1000 kN at E as shown in the figure. Determine the force in member AC using the method of joints.",
+      "image": "/images/mechanical/isro/2015/q5.png",
+      "options": ["1500 kN", "1400 kN", "1314 kN", "1414 kN"],
+      "answer": "1414 kN",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "question": "A circular shaft subjected to torsion undergoes a twist of 1° in a length of 120 cm. If the maximum shear stress induced is limited to 1000 kg/cm² and if the modulus of rigidity G = 0.8 × 10⁶ kg/cm², then the radius of the shaft should be",
+      "options": ["π/18", "π/27", "18/π", "27/π"],
+      "answer": "27/π",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "question": "A frame of two arms of equal length L is shown in the figure. The flexural rigidity of each arm of the frame is EI. The vertical deflection at the point of application of load P is",
+      "image": "/images/mechanical/isro/2015/q7.png",
+      "options": ["PL³/3EI", "2PL³/3EI", "4PL³/3EI", "None of the above"],
+      "answer": "4PL³/3EI",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "question": "A thin cylindrical shell of diameter (d), length (l) and thickness (t) is subjected to an internal pressure (p). The ratio of the longitudinal strain to hoop strain is",
+      "options": ["(m-2)/(2m-1)", "(2m-1)/(m-2)", "(m-2)/(2m+1)", "(m+2)/(2m+2)"],
+      "answer": "(m-2)/(2m-1)",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "question": "A simply supported beam carries a load 'P' through a bracket as shown in the figure. The maximum bending moment in the beam is",
+      "image": "/images/mechanical/isro/2015/q9.png",
+      "options": ["Pl/2", "Pl/2 + ap/2", "Pl/2 + aP", "Pl/2 - aP"],
+      "answer": "Pl/2 + aP",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "question": "A vertical column has two moments of inertia Ixx and Iyy. The column will tend to buckle in the direction of the",
+      "options": [
+        "Axis of load",
+        "Perpendicular to the axis of load",
+        "Maximum moment of inertia",
+        "Minimum moment of inertia"
+      ],
+      "answer": "Minimum moment of inertia",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "question": "Which of the following is applied to brittle materials?",
+      "options": [
+        "Maximum principal stress theory",
+        "Maximum principal strain theory",
+        "Maximum strain energy theory",
+        "Maximum shear stress theory"
+      ],
+      "answer": "Maximum principal stress theory",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Mechanics",
+      "question": "A moving fluid mass may be brought to a static equilibrium position by applying an imaginary inertia force of the same magnitude as that of the accelerating force but in the opposite direction. This is called",
+      "options": [
+        "Pascal's law",
+        "Archimedes principle",
+        "D-Alembert's principle",
+        "None of the above"
+      ],
+      "answer": "D-Alembert's principle",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "question": "For the component loaded with a force F as shown in the figure, the axial stress at the corner point P is",
+      "image": "/images/mechanical/isro/2015/q13.png",
+      "options": [
+        "F(3L-b)/4b³",
+        "F(3L+b)/4b³",
+        "F(3L+4b)/4b³",
+        "F(3L-2b)/4b³"
+      ],
+      "answer": "F(3L-2b)/4b³",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Fluid Mechanics",
+      "question": "When a body floating in a liquid is given a small angular displacement, it starts oscillating about a point known as",
+      "options": [
+        "centre of gravity",
+        "centre of pressure",
+        "metacenter",
+        "centre of buoyancy"
+      ],
+      "answer": "metacenter",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Fluid Mechanics",
+      "question": "Bernoulli's equation is applied to",
+      "options": [
+        "venturimeter",
+        "orifice meter",
+        "pitot tube meter",
+        "all of the above"
+      ],
+      "answer": "all of the above",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Fluid Mechanics",
+      "question": "A jet of water discharging from a 40 mm diameter orifice has minimum area corresponding to dia of 24.4 mm at its vena contracta. The coefficient of contraction is",
+      "options": ["0.46", "0.61", "0.78", "0.87"],
+      "answer": "0.61",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Fluid Mechanics",
+      "question": "A tank of uniform cross section, sectional cross area (A) containing liquid upto height (H₁) has an orifice of cross sectional area (a) at its bottom. The time required to empty the tank completely will be",
+      "image": "/images/mechanical/isro/2015/q17.png",
+      "options": [
+        "2A√H₁ / (Ca a √2g)",
+        "2AH₁ / (Ca a √2g)",
+        "2AH₁^(3/2) / (Ca a √2g)",
+        "2AH₁ / (Ca a 2g)"
+      ],
+      "answer": "2A√H₁ / (Ca a √2g)",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Mechanics",
+      "question": "A railway wagon A of mass 10000 kg collides with another identical wagon B as shown in the figure. If A is moving at 5 m/s and B is at rest at the time of collision, the maximum compression in the spring S with a spring constant of 2 MN/m will be",
+      "image": "/images/mechanical/isro/2015/q18.png",
+      "options": ["20 cm", "30 cm", "35 cm", "45 cm"],
+      "answer": "35 cm",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Machine Design",
+      "question": "Two shafts A and B are made of the same material. The diameter of shaft B is twice that of shaft A. The ratio of power which can be transmitted by shaft A to that of shaft B is",
+      "options": ["1/2", "1/4", "1/8", "1/16"],
+      "answer": "1/8",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Fluid Mechanics",
+      "question": "The power transmitted through the nozzle is maximum when the head lost due to friction in the pipe is",
+      "options": [
+        "Equal to the total supply head",
+        "One third of the total supply head",
+        "One half of the total supply head",
+        "Two third of the total supply head"
+      ],
+      "answer": "One third of the total supply head",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "question": "A massless beam has a loading pattern as shown in the figure. The beam is of rectangular cross section with a width of 30 mm and height of 100 mm. The maximum magnitude of bending stress (in MPa) is given by",
+      "image": "/images/mechanical/isro/2015/q21.png",
+      "options": ["60.0", "67.5", "200", "225"],
+      "answer": "67.5",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Fluid Mechanics",
+      "question": "What is the type of flow when a cylindrical vessel containing some liquid is rotated about its vertical axis?",
+      "image": "/images/mechanical/isro/2015/q22.png",
+      "options": [
+        "steady flow",
+        "turbulent flow",
+        "vortex flow",
+        "non-uniform flow"
+      ],
+      "answer": "vortex flow",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Fluid Mechanics",
+      "question": "Water at 25°C is flowing through a 1.0 km long GI pipe of 200 mm diameter at the rate of 0.07 m³/s. If value of Darcy friction factor for this pipe is 0.02 and density of water is 1000 kg/m³, the pumping power (in kW) required to maintain the flow is",
+      "options": ["1.8", "17.4", "20.5", "41.0"],
+      "answer": "17.4",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Fluid Mechanics",
+      "question": "The velocity at which the laminar flow stops is known as",
+      "options": [
+        "velocity of approach",
+        "lower critical velocity",
+        "higher critical velocity",
+        "none of the above"
+      ],
+      "answer": "lower critical velocity",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "Consider steady state heat conduction across the thickness in a plane composite wall as shown in the figure exposed to convection conditions on both sides. Given : hᵢ = 20 W/m²K; hₒ = 50 W/m²K; T∞,ᵢ = 20°C; T∞,ₒ = −2°C; k₁ = 20 W/mK; k₂ = 50 W/mK; L₁ = 0.30 m and L₂ = 0.15 m. Assuming negligible contact resistance between the wall surfaces, the interface temperature, T (in °C) of the two walls will be",
+      "image": "/images/mechanical/isro/2015/q25.png",
+      "options": ["0.5", "2.75", "3.75", "4.5"],
+      "answer": "3.75",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Mathematics",
+      "question": "For the matrix [4 1; 1 4], the eigen values are",
+      "options": ["3 and -3", "-3 and -5", "3 and 5", "5 and 0"],
+      "answer": "3 and 5",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Mathematics",
+      "question": "Solution for the following differential equation with boundary conditions, y(0)=2 and y(1)=-3 is d²y/dx² = 3x-2",
+      "options": [
+        "y = -x³/2 + x² + 3x - 6",
+        "y = 3x³ - 5x + 2",
+        "y = -x³/2 - 5x/2 + 2",
+        "y = x³/2 - x² - 4.5x + 2"
+      ],
+      "answer": "y = x³/2 - x² - 4.5x + 2",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "question": "PL³/3EI is the deflection under the load P of a cantilever beam (Length-L, ...). The strain energy due to bending is",
+      "image": "/images/mechanical/isro/2015/q28.png",
+      "options": ["P²L³/3EI", "P²L³/6EI", "P²L³/4EI", "P²L³/48EI"],
+      "answer": "P²L³/6EI",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Mathematics",
+      "question": "For which value of x, will the matrix [[8,x,0],[4,0,2],[12,6,0]] become singular?",
+      "options": ["4", "6", "8", "12"],
+      "answer": "4",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "A coolant fluid at 30°C flows over a heated flat plate maintained at 100°C. The boundary layer temperature distribution is T = 30 + 70exp(-y). If thermal conductivity of the fluid is 1.0 W/mK, then the local convective heat transfer coefficient in W/m²K at that location will be",
+      "options": ["0.2", "1", "5", "10"],
+      "answer": "1",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "In a butt welding process using arc welding, the arc power is 2.5 KVA. The process is used to weld two steel plates each of 3 mm thickness as shown. Determine maximum possible welding speed. (α_steel = 1.2 × 10⁻⁵, k_steel = 43.6 W/m°C, melting point = 1530°C, ambient = 30°C)",
+      "image": "/images/mechanical/isro/2015/q31.png",
+      "options": [
+        "0.035 m/s",
+        "0.0146 m/s",
+        "0.02 m/s",
+        "0.0156 m/s"
+      ],
+      "answer": "0.0156 m/s",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Material Science",
+      "question": "The effective number of lattice points in the unit cell of simple cubic, body centered cubic and face centered cubic space lattices, respectively are",
+      "options": ["1, 2, 2", "1, 2, 4", "2, 3, 4", "2, 4, 4"],
+      "answer": "1, 2, 4",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Material Science",
+      "question": "Thermosetting plastics have in general",
+      "options": [
+        "Molecular chains that slip past one another",
+        "Have no long range crystalline lattice structure",
+        "Have a monolithic crystal structure",
+        "Are a ceramic"
+      ],
+      "answer": "Have no long range crystalline lattice structure",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Material Science",
+      "question": "Silicon steel is widely used in",
+      "options": [
+        "Cutting tools",
+        "Dies and punches",
+        "Electrical industry",
+        "Chemical industry"
+      ],
+      "answer": "Electrical industry",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "A furnace wall is constructed as shown in the figure. The interface temperature T₁ will be",
+      "image": "/images/mechanical/isro/2015/q35.png",
+      "options": ["560°C", "200°C", "920°C", "1120°C"],
+      "answer": "920°C",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "Which bond gives the softest bond?",
+      "options": ["Silicate bond", "Shellac bond", "Vitrified bond", "All of equal strength"],
+      "answer": "Shellac bond",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Material Science",
+      "question": "An eutectoid steel consists of",
+      "options": [
+        "Wholly pearlite",
+        "Wholly austenite",
+        "Pearlite and ferrite",
+        "Pearlite and cementite"
+      ],
+      "answer": "Wholly pearlite",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "Fifty flat pieces of 1 mm thick are to be milled. The cutter is 25mm diameter with 10 teeth, rotating at 100 rpm. Horizontal feed is 10 mm/min. Assuming single tooth in contact, the material removal rate will be",
+      "image": "/images/mechanical/isro/2015/q38.png",
+      "options": ["35.7 mm³/s", "37.7 mm³/s", "41.7 mm³/s", "47.7 mm³/s"],
+      "answer": "41.7 mm³/s",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Material Science",
+      "question": "German silver contains",
+      "options": ["12.5% silver", "5% silver", "1% silver", "None of the above"],
+      "answer": "None of the above",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "Addition of coal dust to the green moulding sand is to improve",
+      "options": ["Permeability", "Surface finish", "Mouldability", "Green strength"],
+      "answer": "Surface finish",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "Slush casting process is used to produce",
+      "options": [
+        "Hollow castings",
+        "Intricate castings",
+        "Large size castings",
+        "Thin walled castings"
+      ],
+      "answer": "Hollow castings",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "Two castings of the same metal have the same surface area. One casting is in the form of a sphere and the other is a cube. What is the ratio of the solidification time for the sphere to that of the cube?",
+      "options": ["3/4", "6/π", "5/4π", "3π/8"],
+      "answer": "6/π",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "Plug gauge is used to measure",
+      "options": [
+        "Taper bores",
+        "Cylindrical bores",
+        "Spherical holes",
+        "None of the above"
+      ],
+      "answer": "Cylindrical bores",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "Resistance spot welding is performed on two plates of 1.5 mm thickness with 6 mm diameter electrode using 15000 A current for a time duration of 0.25 seconds. Assuming the interface resistance to be 0.0001 Ω, the heat generated to form the weld is",
+      "options": ["5625 W-sec", "8437 W-sec", "22500 W-sec", "33750 W-sec"],
+      "answer": "5625 W-sec",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "Pre-heating before welding is done to",
+      "options": [
+        "Make the steel softer",
+        "Burn away oil, grease, etc. from the plate surface",
+        "Prevent cold cracks",
+        "Prevent plate distortion"
+      ],
+      "answer": "Prevent cold cracks",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "The velocity of tool along the tool face is known as",
+      "image": "/images/mechanical/isro/2015/q46.png",
+      "options": ["Shear velocity", "Chip velocity", "Cutting velocity", "Mean velocity"],
+      "answer": "Chip velocity",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "A milling cutter having 8 teeth is rotating at 150 RPM. If the feed per tooth is 0.1, the table speed in mm per minute is",
+      "options": ["120", "187", "125", "70"],
+      "answer": "120",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Vibrations",
+      "question": "As shown in the figure a mass of 100 kg is held between two springs. The natural frequency of vibration of the system in cycle/s is",
+      "image": "/images/mechanical/isro/2015/q48.png",
+      "options": ["1/2π", "5/π", "10/π", "20/π"],
+      "answer": "10/π",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "In ultrasonic machining process, the material removal rate would",
+      "image": "/images/mechanical/isro/2015/q49.png",
+      "options": ["Increase", "Decrease", "Increase and then decrease", "Decrease and then increase"],
+      "answer": "Increase",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "Tool life of 10 hrs is obtained when cutting with single point tool at 63 m/min. If Taylor's constant C = 257.35, tool life on doubling the velocity will be",
+      "options": ["5 hrs", "25.7 min", "38.3 min", "No change"],
+      "answer": "25.7 min",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "3-2-1 method of location in a jig or fixture would collectively restrict the work piece in 'n' degrees of freedom where the value of 'n' is",
+      "options": ["6", "8", "9", "1"],
+      "answer": "9",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "During orthogonal machining with a HSS tool, the rake angle is 5°, un-deformed chip thickness is 0.25 mm and width of cut is 4 mm. Assuming shear strength of work material to be 350 N/mm² and coefficient of friction as 0.5, determine cutting and thrust force.",
+      "options": [
+        "1029.4 N, 406.8 N",
+        "1000 N, 500 N",
+        "1110.5 N, 425.8 N",
+        "1025.4 N, 410.8 N"
+      ],
+      "answer": "1029.4 N, 406.8 N",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Mathematics",
+      "question": "The probability that a teacher will give an unannounced test during any class is 1/5. If a student is absent twice, then probability that misses atleast one test is",
+      "options": ["2/3", "4/5", "7/25", "9/25"],
+      "answer": "9/25",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Thermodynamics",
+      "question": "The difference between two specific heats, Cp – Cv = R/J. This relation is valid for",
+      "options": ["Any gas", "Perfect gases", "Real gases", "Pure gases"],
+      "answer": "Perfect gases",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Thermodynamics",
+      "question": "A process in which no heat is supplied or rejected from the system and entropy is not constant is known as",
+      "options": ["Isothermal", "Isentropic", "Polytropic", "Hyperbolic"],
+      "answer": "Polytropic",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Thermodynamics",
+      "question": "Carnot cycle has maximum efficiency for",
+      "options": [
+        "Petrol engine",
+        "Diesel engine",
+        "Reversible engine",
+        "Irreversible engine"
+      ],
+      "answer": "Reversible engine",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Thermodynamics",
+      "question": "The inlet and outlet conditions of steam for an adiabatic steam turbine are as indicated in the figure. If the mass rate of steam through the turbine is 20 kg/s, the power output of the turbine is",
+      "image": "/images/mechanical/isro/2015/q57.png",
+      "options": ["12.157 MW", "12.941 MW", "168.001 MW", "168.785 MW"],
+      "answer": "12.157 MW",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Thermodynamics",
+      "question": "A solar energy based heat engine which receives 80 kJ of heat at 100°C and rejects 70 kJ of heat to the ambient at 30°C is to be designed. The thermal efficiency of the heat engine is",
+      "options": ["70%", "1.88%", "12.5%", "None of the above"],
+      "answer": "12.5%",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Thermodynamics",
+      "question": "A carnot cycle refrigerator operates between 250 K and 300 K. Its coefficient of performance is",
+      "options": ["6.0", "5.0", "1.2", "0.8"],
+      "answer": "5.0",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Thermodynamics",
+      "question": "A large diesel engine runs on a 4-stroke cycle at 2000 rpm. The engine has a displacement of 25 litre and a brake mean effective pressure of 0.6 MN/m². It consumes 0.018 kg/s of fuel (calorific value = 42000 kJ/kg). Determine the brake power.",
+      "options": ["250 kW", "225 kW", "275 kW", "none of the above"],
+      "answer": "250 kW",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Thermodynamics",
+      "question": "A gas having a negative Joule-Thomson effect (μ < 0), when throttled will",
+      "options": [
+        "Become cooler",
+        "Become warmer",
+        "Remain at the same temperature",
+        "Either be cooler or warmer depending on the type of gas"
+      ],
+      "answer": "Become warmer",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Thermodynamics",
+      "question": "The pressure 'p' of an ideal gas and its mean kinetic energy E per unit volume are related by the relation",
+      "options": ["p = 4/3 E", "p = 3/2 E", "p = E/3", "p = 2/3 E"],
+      "answer": "p = 2/3 E",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Industrial Engineering",
+      "question": "The figure shows the principle of",
+      "image": "/images/mechanical/isro/2015/q63.png",
+      "options": [
+        "Traceability",
+        "Interchangeability",
+        "Matched fits",
+        "Selective assembly"
+      ],
+      "answer": "Selective assembly",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "Your finger sticks to an ice tray just taken from the refrigerator. Which factor has more effect on this phenomenon?",
+      "options": [
+        "The inside temperature of the freezer",
+        "The humidity of the air",
+        "The heat capacity of both your finger and the tray",
+        "The thermal conductivity of the tray"
+      ],
+      "answer": "The thermal conductivity of the tray",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "Wet clothes are hung on a clothesline outdoors in sub-zero weather. After a day, the clothes are brought into the house and observed to be dry. The process of drying is best explained as",
+      "options": ["Vaporization", "Sublimation", "Melting", "Condensation"],
+      "answer": "Sublimation",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "A 10 kg solid at 100°C with a specific heat of 0.8 kJ/kg °C is immersed in 40 kg of 20°C liquid with a specific heat of 4.0 kJ/kg °C. Estimate the temperature after a long time if the container is insulated.",
+      "options": ["30°C", "28°C", "26°C", "24°C"],
+      "answer": "24°C",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "For a current wire of 20 mm diameter exposed to air (h=20 W/m²K), maximum heat dissipation occurs when thickness of insulation (k=0.5 W/mK) is",
+      "options": ["20 mm", "25 mm", "10 mm", "none of the above"],
+      "answer": "none of the above",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "A steel ball of mass 1 kg and specific heat 0.4 kJ/kg is at a temperature of 60°C. It is dropped into 1 kg water at 20°C. The final steady state temperature of water is",
+      "options": ["23.5°C", "30°C", "35°C", "40°C"],
+      "answer": "23.5°C",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "It is proposed to coat a 1 mm diameter wire with enamel paint (k=0.1 W/mK) to increase the heat transfer with air. If the air side heat transfer coefficient is 100 W/m²K, the optimum thickness of enamel paint should be",
+      "options": ["0.25 mm", "0.5 mm", "1 mm", "2 mm"],
+      "answer": "0.5 mm",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "In a pulverized fuel fired large power boiler, the heat transfer from the burning fuel to the walls of the furnace is",
+      "options": [
+        "By conduction only",
+        "By convection only",
+        "By conduction and convection",
+        "Predominantly by radiation"
+      ],
+      "answer": "Predominantly by radiation",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Heat Transfer",
+      "question": "Three metal walls of the same cross sectional area having thermal conductivities in the ratio 1:2:4 transfer heat at the rate of 6000 kJ/hr. For the same wall thickness, the temperature drops will be in the ratio",
+      "image": "/images/mechanical/isro/2015/q71.png",
+      "options": ["1:2:4", "1:1/2:1/4", "1/4:1/2:1", "1:1:1"],
+      "answer": "1:1/2:1/4",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "A basic hole is one whose",
+      "options": [
+        "Lower deviation is zero",
+        "Upper deviation is zero",
+        "Lower and upper deviations are zero",
+        "None of the above"
+      ],
+      "answer": "Lower deviation is zero",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "As per IT 5, standard tolerance unit (i) is equal to",
+      "options": [
+        "0.002 + 0.8 D",
+        "0.8 + 0.002 D",
+        "0.45∛D + 0.001 D",
+        "0.001∛D + 0.45 D"
+      ],
+      "answer": "0.45∛D + 0.001 D",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Drawing",
+      "question": "Circular shapes appear in this fashion when viewed at an angle other than 90 degrees",
+      "options": ["Circular", "Elliptical", "Lengthened", "Angular"],
+      "answer": "Elliptical",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Machine Design",
+      "question": "Starting friction is low in",
+      "options": [
+        "Hydrostatic lubrication",
+        "Hydrodynamic lubrication",
+        "Mixed lubrication",
+        "Boundary lubrication"
+      ],
+      "answer": "Hydrostatic lubrication",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Machine Design",
+      "question": "Which one of the following is trapezoidal thread?",
+      "options": ["Acme", "Square", "Buttress", "All of the above"],
+      "answer": "Acme",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Machine Design",
+      "question": "If the ratio of the diameter of rivet hole to the pitch of rivets is 0.25, then the tearing efficiency of the joint is",
+      "options": ["50%", "75%", "25%", "87%"],
+      "answer": "75%",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Machine Design",
+      "question": "The life of a ball bearing at a load of 10 kN is 8000 hours. If the load is increased to 20 kN, keeping all other conditions the same, then its life in hours is",
+      "options": ["4000", "2000", "1000", "500"],
+      "answer": "1000",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Engineering Drawing",
+      "question": "A drawing which shows the product with its components in their correct physical relationship is called",
+      "options": [
+        "Part drawing",
+        "Layout drawing",
+        "Assembly drawing",
+        "Fabrication drawing"
+      ],
+      "answer": "Assembly drawing",
+      "explanation": "Coming Soon"
+    },
+    {
+      "subject": "Manufacturing",
+      "question": "Which one of the following is a solid state joining process?",
+      "options": [
+        "Gas tungsten arc welding",
+        "Resistance spot welding",
+        "Friction welding",
+        "Submerged arc welding"
+      ],
+      "answer": "Friction welding",
+      "explanation": "Coming Soon"
+    }
+  ]
+}

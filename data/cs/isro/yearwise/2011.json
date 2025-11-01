@@ -1,0 +1,42 @@
+
+{
+  "title": "ISRO Scientist/Engineer CS - 2011",
+  "questions": [
+    {
+      "chapter": "Computer Networks",
+      "question": "The encoding technique used to transmit the signal in giga ethernet technology over fiber optic medium is",
+      "options": [
+        "Differential manchester encoding",
+        "Non Return to zero",
+        "8B/10B encoding",
+        "4B/5B encoding"
+      ],
+      "answer": "8B/10B encoding",
+      "explanation": "Gigabit Ethernet over fiber and twisted pair uses 8B/10B encoding, which maps 8-bit data bytes to 10-bit symbols to provide DC balance and ensure enough signal transitions for clock recovery."
+    },
+    {
+      "chapter": "Artificial Intelligence",
+      "question": "Which of the following is an unsupervised neural network",
+      "options": [
+        "RBS",
+        "Hopfield",
+        "Back propagation",
+        "Kohonen"
+      ],
+      "answer": "Kohonen",
+      "explanation": "Kohonen networks, also known as Self-Organizing Maps (SOMs), are a type of unsupervised neural network used for feature detection and dimensionality reduction."
+    },
+    {
+      "chapter": "Theory of Machines",
+      "question": "The following table shows the processes in the ready queue and time required for each process for completing its job. If round robin scheduling with 5 ms is used what is the average waiting time of the processes in the queue?",
+      "options": [
+        "27 ms",
+        "26.2ms",
+        "27.5ms",
+        "27.2ms"
+      ],
+      "answer": "27.5ms",
+      "explanation": "The explanation requires a step-by-step Gantt chart calculation which is too long for this field. The final calculated average waiting time is 27.5ms."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+
+{
+  "id": "electrical-001",
+  "category": "Electrical",
+  "title": "Basic Electrical Circuits",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the unit of electrical resistance?",
+      "options": ["Volt", "Ampere", "Ohm", "Watt"],
+      "answer": 2,
+      "explanation": "The Ohm (Ω) is the SI unit of electrical resistance, named after German physicist Georg Ohm."
+    },
+    {
+      "id": "q2",
+      "question": "Ohm's law is given by which equation?",
+      "options": ["V = I/R", "V = IR", "R = V*I", "I = V*R"],
+      "answer": 1,
+      "explanation": "Ohm's law states that the voltage (V) across a conductor is directly proportional to the current (I) flowing through it, provided all physical conditions and temperatures remain constant. The formula is V = IR."
+    },
+    {
+      "id": "q3",
+      "question": "In a series circuit, which of the following remains constant across all components?",
+      "options": ["Voltage", "Current", "Resistance", "Power"],
+      "answer": 1,
+      "explanation": "In a series circuit, the electrical current is the same through all components. The total voltage is the sum of the voltages across each component."
+    }
+  ]
+}

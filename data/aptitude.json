@@ -1,0 +1,22 @@
+
+{
+  "id": "aptitude-001",
+  "category": "Aptitude",
+  "title": "Quantitative Aptitude",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "If a car travels at 60 km/h for 2 hours, what is the distance covered?",
+      "options": ["100 km", "120 km", "150 km", "30 km"],
+      "answer": 1,
+      "explanation": "Distance = Speed × Time. So, Distance = 60 km/h × 2 h = 120 km."
+    },
+    {
+      "id": "q2",
+      "question": "What is 25% of 200?",
+      "options": ["25", "40", "50", "75"],
+      "answer": 2,
+      "explanation": "25% can be written as 0.25. So, 0.25 × 200 = 50."
+    }
+  ]
+}

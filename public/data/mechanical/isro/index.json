@@ -1,0 +1,29 @@
+{
+  "years": [
+    "2020",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006"
+  ],
+  "topics": [
+    "thermodynamics",
+    "fluid_mechanics",
+    "heat_transfer",
+    "machine_design",
+    "manufacturing",
+    "mechanics_of_materials",
+    "theory_of_machines",
+    "industrial_engineering",
+    "vibrations"
+  ]
+}

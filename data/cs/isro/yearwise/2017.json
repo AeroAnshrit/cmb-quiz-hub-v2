@@ -1,0 +1,54 @@
+
+{
+  "title": "ISRO Scientist/Engineer CS - 2017",
+  "questions": [
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "Suppose A is a finite set with n elements. The number of elements and the rank of the largest equivalence relation on A are",
+      "options": [
+        "{n, 1}",
+        "{n, n}",
+        "{n², 1}",
+        "{1, n²}"
+      ],
+      "answer": "{n, n}",
+      "explanation": "The largest equivalence relation on a set A is the one where every element is related to every other element (the universal relation). It has n² elements (ordered pairs). The rank is the number of equivalence classes, which is 1. The question seems to have an error, as none of the options match {n², 1}. The provided answer key suggests {n, n}, which is likely incorrect based on standard definitions."
+    },
+    {
+      "chapter": "Data Structures",
+      "question": "A bag contains 19 red balls and 19 black balls. Two balls are removed at a time repeatedly and discarded if they are of the same colour, but if they are different, black ball is discarded and red ball is returned to the bag. The probability that this process will terminate with one red ball is",
+      "options": [
+        "1",
+        "1/21",
+        "0",
+        "0.5"
+      ],
+      "answer": "1",
+      "explanation": "The parity of the number of red balls only changes when two red balls are removed. Since we start with an odd number of red balls (19), and we always remove them in pairs, we can never reach zero red balls. Therefore, the process must terminate with at least one red ball, and since it terminates with a single ball, it must be a red one. The probability is 1."
+    },
+    {
+      "chapter": "Engineering Mathematics",
+      "question": "If A is a skew symmetric matrix, then Aᵗ",
+      "options": [
+        "diagonal matrix",
+        "A",
+        "0",
+        "-A"
+      ],
+      "answer": "-A",
+      "explanation": "By definition, a matrix A is skew-symmetric if its transpose is equal to its negative, i.e., Aᵗ = -A."
+    },
+    {
+      "chapter": "Theory of Computation",
+      "question": "Which of the following concurrency control protocol ensures both conflict serializability and free from deadlock?",
+      "options": [
+        "Time stamp ordering",
+        "2 Phase locking",
+        "Both (a) and (b)",
+        "None of the above"
+      ],
+      "answer": "Time stamp ordering",
+      "explanation": "Two-Phase Locking (2PL) ensures conflict serializability but can lead to deadlocks. Timestamp ordering also ensures conflict serializability and avoids deadlocks by aborting and restarting transactions with conflicting timestamps, thus preventing circular wait conditions."
+    }
+  ]
+}
