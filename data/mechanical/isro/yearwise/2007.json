@@ -1,0 +1,65 @@
+{
+  "title": "ISRO Scientist/Engineer ME - 2007",
+  "questions": [
+    {
+      "chapter": "Aerospace Engineering",
+      "question": "Only rocket engines can be propelled to space because",
+      "options": [
+        "They can generate very high thrust",
+        "They have high propulsion efficiency",
+        "These engines can work on several fuels",
+        "They are not air-breathing engines"
+      ],
+      "answer": "They are not air-breathing engines",
+      "explanation": "Rocket engines carry their own oxidizer and do not rely on atmospheric air for combustion, which is why they can operate in the vacuum of space. Jet engines are air-breathing and cannot function without an atmosphere."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "The universal gas constant of a gas is the product of molecular weight of the gas and",
+      "options": [
+        "Gas constant",
+        "Specific heat at constant pressure",
+        "Specific heat at constant volume",
+        "None of the above"
+      ],
+      "answer": "Gas constant",
+      "explanation": "The universal gas constant (R_u) is related to the specific gas constant (R) by the formula R_u = M × R, where M is the molecular weight of the gas."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "Vander Waal's equation of state of a gas is",
+      "options": [
+        "PV = nRT",
+        "(p + a/v²)(v + b) = RT",
+        "(p + a/v²)(v - b) = RT",
+        "(p - a/v²)(v - b) = RT"
+      ],
+      "answer": "(p + a/v²)(v - b) = RT",
+      "explanation": "The Van der Waals equation is (p + a/v²)(v - b) = RT, where 'a' accounts for intermolecular forces and 'b' accounts for the volume occupied by the gas molecules."
+    },
+    {
+      "chapter": "Heat Transfer",
+      "question": "The radiative heat transfer rate per unit area (W/m²) between two plane parallel grey surfaces (emissivity = 0.9) maintained at 400 K and 300 K is (Stefan Boltzmann constant σ = 5.67 × 10⁻⁸ W/m² K⁴)",
+      "options": [
+        "992",
+        "812",
+        "464",
+        "567"
+      ],
+      "answer": "812",
+      "explanation": "The heat transfer rate per unit area is given by Q/A = σ(T₁⁴ - T₂⁴) / (1/ε₁ + 1/ε₂ - 1). With ε₁=ε₂=0.9, Q/A = [5.67×10⁻⁸(400⁴ - 300⁴)] / (2/0.9 - 1) ≈ 812 W/m²."
+    },
+    {
+      "chapter": "Thermodynamics",
+      "question": "The efficiency η of any heat engine and efficiency ηR of a reversible heat engine operating between common heat source and heat sink are related as",
+      "options": [
+        "η > ηR",
+        "η < ηR",
+        "η ≥ ηR",
+        "η ≤ ηR"
+      ],
+      "answer": "η ≤ ηR",
+      "explanation": "According to the Carnot's theorem, no heat engine operating between two given reservoirs can be more efficient than a reversible Carnot engine operating between the same two reservoirs. Therefore, the efficiency of any real engine (η) is always less than or equal to the efficiency of a reversible engine (ηR)."
+    }
+  ]
+}

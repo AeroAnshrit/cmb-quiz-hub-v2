@@ -1,0 +1,89 @@
+{
+  "title": "ISRO Scientist/Engineer ME - 2006",
+  "questions": [
+    {
+      "chapter": "Manufacturing",
+      "question": "In nodular iron, graphite is in the form of-",
+      "options": [
+        "Cementite",
+        "Free carbon",
+        "Flakes",
+        "Spheroids"
+      ],
+      "answer": "Spheroids",
+      "explanation": "Nodular (or Ductile) Cast Iron has also known as spheroidal or ductile cast iron. Alloying additions are of prime importance in producing these materials. Small additions of Mg/Ce to the gray cast iron melt before casting can result in graphite to form nodule or spheroids like particles. Matrix surrounding these particles can be either ferrite or pearlite depending on the heat treatment. These are stronger and ductile than gray cast iron."
+    },
+    {
+      "chapter": "Material Science",
+      "question": "Hardness of steel depends on",
+      "options": [
+        "Amount of carbon it contains",
+        "The shape and distribution of the carbides in iron",
+        "Method of fabrication",
+        "Contents of alloying elements"
+      ],
+      "answer": "Amount of carbon it contains",
+      "explanation": "The term hardened steel is often used for a medium or high carbon steel that has been given heat treatment and then quenching followed by tempering. Hardness of steel depends on the amount of carbon present in metal. Only steel that is high in carbon can be hardened and tempered. If a metal does not contain the necessary quantity of carbon, then its crystalline structure cannot be broken."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Too high welding current in arc welding would result in",
+      "options": [
+        "Excessive spatter, under cutting along edges, irregular deposits, wasted electrodes",
+        "Excessive piling up of weld metal, poor penetration, wasted electrodes",
+        "Too small bead, weak weld and wasted electrodes",
+        "Excessive piling up of weld metal, overlapping without penetration of edges, wasted electrodes"
+      ],
+      "answer": "Excessive spatter, under cutting along edges, irregular deposits, wasted electrodes",
+      "explanation": "Arc welding is a type of welding process using an electric arc to create heat to melt and joint metals. Very high welding current in arc welding would result in excessive spatter, under cutting along edges, irregular deposits, wasted electrodes."
+    },
+    {
+      "chapter": "Manufacturing",
+      "question": "Which of the following processes would produce strongest components?",
+      "options": [
+        "Hot rolling",
+        "Extrusion",
+        "Cold rolling",
+        "Forging"
+      ],
+      "answer": "Cold rolling",
+      "explanation": "Cold Rolling increases the yield strength and hardness of metal by introducing defects into the metal's crystal structure. These defects prevent further slip and can reduce the grain size of the metal, resulting in Hall-Petch hardening. Since strength and hardness of a cold working component is always more than that of hot working due to strain hardening, cold working would be a better option."
+    },
+    {
+      "chapter": "Engineering Mechanics",
+      "question": "If a quantity Q is dependent on three other quantities q₁, q₂, and q₃ related such that Q = K × (q₁)ⁿ¹ × (q₂)ⁿ² × (q₃)ⁿ³, then overall error δQ/Q =",
+      "options": [
+        "n₁(δq₁/q₁) + n₂(δq₂/q₂) + n₃(δq₃/q₃)",
+        "±(n₁(δq₁/q₁) + n₂(δq₂/q₂) + n₃(δq₃/q₃))",
+        "δq₁/q₁ + δq₂/q₂ + δq₃/q₃",
+        "n₁ (δq₁/q₁) + n₂ (δq₂/q₂) + n₃ (δq₃/q₃)"
+      ],
+      "answer": "±(n₁(δq₁/q₁) + n₂(δq₂/q₂) + n₃(δq₃/q₃))",
+      "explanation": "Taking the natural logarithm of the equation gives ln Q = ln K + n₁ ln q₁ + n₂ ln q₂ + n₃ ln q₃. Differentiating this gives δQ/Q = n₁(δq₁/q₁) + n₂(δq₂/q₂) + n₃(δq₃/q₃). The overall error is the sum of the absolute values of the individual errors."
+    },
+    {
+      "chapter": "Material Science",
+      "question": "Which of the following has maximum hardness?",
+      "options": [
+        "Austenite",
+        "Pearlite",
+        "Troostite",
+        "Martensite"
+      ],
+      "answer": "Martensite",
+      "explanation": "The hardness of different microstructures of steel in increasing order is: Spheroidite < Pearlite < Bainite < Martensite. Martensite has the highest hardness due to its body-centered tetragonal (BCT) crystal structure."
+    },
+    {
+      "chapter": "Industrial Engineering",
+      "question": "The main advantage of line organization is its-",
+      "options": [
+        "Effective command and control",
+        "Defined responsibilities at all levels",
+        "Rigid discipline in the organization",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "Line organization is the most oldest and simplest method of administrative organization. In this type of organization, the authority flows from top to bottom in concern. It means the line of command is carried out from top to bottom. Merits of line organization includes Simplicity, Clear-cut division of authority and responsibility, Strong discipline, Unified control, Prompt decisions, and Flexibility."
+    }
+  ]
+}
