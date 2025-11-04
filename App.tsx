@@ -12,6 +12,7 @@ import ResultPage from './pages/ResultPage';
 import HowToJoinPage from './pages/HowToJoinPage';
 import GeneralInfoPage from './pages/GeneralInfoPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsOfUsePage from './pages/TermsOfUsePage';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const App: React.FC = () => {
           <Route index element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="terms-of-use" element={<TermsOfUsePage />} />
 
           {/* Dynamic Branch, Exam, and Content Routes */}
           <Route path=":branch" element={<BranchPage />} />

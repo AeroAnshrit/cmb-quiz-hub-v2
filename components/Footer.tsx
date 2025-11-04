@@ -10,6 +10,7 @@ const Footer: React.FC = () => {
           <Link to="/about" className="hover:text-accent transition-colors">About</Link>
           <a href="#" className="hover:text-accent transition-colors">Contribute</a>
           <Link to="/privacy-policy" className="hover:text-accent transition-colors">Privacy Policy</Link>
+          <Link to="/terms-of-use" className="hover:text-accent transition-colors">Terms of Use</Link>
         </div>
       </div>
     </footer>

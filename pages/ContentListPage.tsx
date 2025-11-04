@@ -78,7 +78,7 @@ const ContentListPage: React.FC = () => {
             </Link>
             <h1 className="text-4xl md:text-5xl font-extrabold text-text-primary capitalize">{pageTitle}</h1>
         </div>
-        <p className="text-lg md:text-xl text-text-secondary mt-4">Select a ${contentTypeName.toLowerCase()} to start the quiz.</p>
+        <p className="text-lg md:text-xl text-text-secondary mt-4">Select a {contentTypeName.toLowerCase()} to start the quiz.</p>
       </div>
 
       <div className="mb-8 max-w-lg mx-auto">
@@ -103,7 +103,7 @@ const ContentListPage: React.FC = () => {
         ))}
       </div>
       {filteredList.length === 0 && (
-        <p className="text-center text-text-secondary mt-8">No matching ${contentTypeName.toLowerCase()} found for "{searchTerm}".</p>
+        <p className="text-center text-text-secondary mt-8">No matching {contentTypeName.toLowerCase()} found for "{searchTerm}".</p>
       )}
     </div>
   );

@@ -3,6 +3,10 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { Question } from '../types';
 import { fetchWithCache } from '../utils/cache';
 import LoadingScreen from '../components/LoadingScreen';
+import { Flag } from 'lucide-react';
+import ReportIssueModal from '../components/ReportIssueModal';
+import { AnimatePresence, motion, PanInfo } from 'framer-motion';
+
 
 const QuizPage: React.FC = () => {
   const { branch, exam, contentType, contentId } = useParams<{ branch: string; exam: string; contentType: string; contentId: string }>();
@@ -17,6 +21,7 @@ const QuizPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [timeLeft, setTimeLeft] = useState(120 * 60); // 120 minutes in seconds
+  const [isReportModalOpen, setReportModalOpen] = useState(false);
 
   useEffect(() => {
     const loadData = async () => {
@@ -28,7 +33,7 @@ const QuizPage: React.FC = () => {
         const dataPath = `/data/${branch}/${exam}/${contentType}/${contentId}.json`;
         try {
           const quizData = await fetchWithCache(dataPath);
-          const loadedQuestions = quizData.questions as Question[];
+          const loadedQuestions = (Array.isArray(quizData) ? quizData : quizData.questions) as Question[];
           
           if (!loadedQuestions || loadedQuestions.length === 0) {
             throw new Error('No questions found in file.');
@@ -136,6 +141,17 @@ const QuizPage: React.FC = () => {
   
   const formatTime = (seconds: number) => `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
 
+  const handleDragEnd = (event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
+    const swipeThreshold = 50; // pixels to count as a swipe
+    if (info.offset.x > swipeThreshold && currentQuestionIndex > 0) {
+      // Swipe Right -> Previous Question
+      jumpToQuestion(currentQuestionIndex - 1);
+    } else if (info.offset.x < -swipeThreshold && currentQuestionIndex < questions.length - 1) {
+      // Swipe Left -> Next Question
+      handleNext();
+    }
+  };
+
   if (isLoading) {
     return <LoadingScreen text="Preparing your quiz..." />;
   }
@@ -147,11 +163,17 @@ const QuizPage: React.FC = () => {
   if (!currentQuestion) return null;
 
   const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
-  const yearRange = Array.from({ length: 2025 - 2006 + 1 }, (_, i) => 2025 - i);
 
   return (
+    <>
     <div className="max-w-7xl mx-auto animate-fade-in lg:flex lg:gap-8">
-      <div className="w-full lg:w-2/3 p-4 md:p-8 bg-surface rounded-xl shadow-2xl border border-border">
+      <motion.div 
+        className="w-full lg:w-2/3 p-4 md:p-8 bg-surface rounded-xl shadow-2xl border border-border cursor-grab active:cursor-grabbing"
+        drag="x"
+        dragConstraints={{ left: 0, right: 0 }}
+        onDragEnd={handleDragEnd}
+        dragElastic={0.1}
+      >
         <div className="flex justify-between items-start mb-2 flex-wrap gap-4">
             <div>
                 <h1 className="text-3xl font-bold text-accent capitalize">{title}</h1>
@@ -161,12 +183,14 @@ const QuizPage: React.FC = () => {
                 <div className={`text-2xl font-bold px-4 py-2 rounded-lg border ${timeLeft <= 60 ? 'text-incorrect border-incorrect animate-pulse' : 'text-primary border-border'}`}>
                     {formatTime(timeLeft)}
                 </div>
-                 {contentType === 'yearwise' && (
+                 {contentType === 'yearwise' && availableYears.length > 0 && (
                     <div>
                         <select value={contentId} onChange={handleQuickSwitch} className="bg-background border border-border rounded-md p-2.5 text-text-primary focus:outline-none focus:ring-2 focus:ring-accent">
-                            {yearRange.map(year => (
-                                <option key={year} value={year} disabled={!availableYears.includes(String(year))}>
-                                    {year} {!availableYears.includes(String(year)) && '(NA)'}
+                            {availableYears
+                                .sort((a, b) => parseInt(b) - parseInt(a))
+                                .map(year => (
+                                <option key={year} value={year}>
+                                    {year}
                                 </option>
                             ))}
                         </select>
@@ -176,6 +200,15 @@ const QuizPage: React.FC = () => {
         </div>
         <div className="w-full bg-background rounded-full h-2.5 my-8"><div className="bg-accent h-2.5 rounded-full" style={{ width: `${progress}%` }}></div></div>
         <div key={currentQuestionIndex} className="animate-slide-in">
+            {currentQuestion.image && (
+              <div className="mb-6 flex justify-center">
+                <img 
+                  src={`${(import.meta as any).env.BASE_URL.slice(0,-1)}${currentQuestion.image}`}
+                  alt="Question diagram" 
+                  className="max-w-full max-h-96 rounded-lg border-2 border-border bg-background p-2" 
+                />
+              </div>
+            )}
             <h2 className="text-2xl font-semibold mb-6 text-text-primary">{currentQuestion.question}</h2>
             <div className="space-y-4">
                 {currentQuestion.options.map((option, index) => (
@@ -184,6 +217,15 @@ const QuizPage: React.FC = () => {
                     </button>
                 ))}
             </div>
+            <div className="mt-6 text-right">
+                <button
+                  onClick={() => setReportModalOpen(true)}
+                  className="inline-flex items-center gap-1.5 text-xs text-text-secondary/80 hover:text-accent transition-colors"
+                  aria-label="Report an issue with this question"
+                >
+                  <Flag size={14} /> Report Issue
+                </button>
+              </div>
         </div>
         <div className="mt-8 flex justify-between items-center">
             <button onClick={handleSkip} className="px-8 py-3 bg-transparent border-2 border-primary text-primary hover:bg-primary/10 font-bold rounded-lg transition-all">Skip</button>
@@ -191,7 +233,7 @@ const QuizPage: React.FC = () => {
                 {currentQuestionIndex === questions.length - 1 ? 'Finish Quiz' : 'Next Question'}
             </button>
         </div>
-      </div>
+      </motion.div>
       
       <div className="w-full lg:w-1/3 mt-8 lg:mt-0">
           <div className="p-4 bg-surface rounded-xl shadow-2xl border border-border sticky top-24">
@@ -223,6 +265,16 @@ const QuizPage: React.FC = () => {
           </div>
       </div>
     </div>
+      <AnimatePresence>
+        {isReportModalOpen && currentQuestion && (
+            <ReportIssueModal
+                question={currentQuestion}
+                questionIndex={currentQuestionIndex}
+                onClose={() => setReportModalOpen(false)}
+            />
+        )}
+      </AnimatePresence>
+    </>
   );
 };
 

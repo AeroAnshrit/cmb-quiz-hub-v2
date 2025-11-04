@@ -1,0 +1,16 @@
+{
+  "name": "CMB Quiz Hub",
+  "short_name": "CMB Quiz",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#3f51b5",
+  "description": "A modern Quiz Website for engineering students.",
+  "icons": [
+    {
+      "src": "vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AeroAnshrit.github.io/cmb-quiz-hub-v2/",
+  "homepage": "https://<your-username>.github.io/cmb-quiz-hub-v2/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -32,7 +32,7 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5.9.3",
+    "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }
 }

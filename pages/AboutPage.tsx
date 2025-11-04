@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const AboutPage: React.FC = () => {
@@ -20,6 +19,19 @@ const AboutPage: React.FC = () => {
         <p>
           CMB Quiz Hub is an open-source project. If you'd like to contribute by adding new quiz categories, questions, or features, please visit our GitHub repository (link to be added).
         </p>
+
+        <h2 className="text-2xl font-bold text-text-primary pt-6">Share Your Feedback</h2>
+        <p>
+            Have a suggestion, a feature request, or found a bug? We'd love to hear from you! Your feedback helps us improve the platform for everyone.
+        </p>
+        <div className="pt-4">
+            <a 
+                href="mailto:cmbquizhub@gmail.com?subject=Feedback for CMB Quiz Hub"
+                className="inline-block px-6 py-3 bg-secondary text-white font-bold rounded-lg hover:bg-secondary-hover transition-colors"
+            >
+                Submit Feedback
+            </a>
+        </div>
       </div>
     </div>
   );

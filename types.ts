@@ -4,6 +4,7 @@ export interface Question {
   options: string[];
   answer: string;
   explanation: string;
+  image?: string;
 }
 
 export interface Result {

@@ -43,7 +43,7 @@ const BranchPage: React.FC = () => {
             title: `${exam.toUpperCase()} PYQ`,
             description: `Previous Year Questions for ${exam.toUpperCase()}.`,
             icon: iconMap[exam.toUpperCase() as keyof typeof iconMap] || <GATEIcon />,
-            comingSoon: !data || Object.keys(data).length === 0,
+            comingSoon: !data || Object.keys(data).length === 0 || (data.years && data.years.length === 0),
           };
         } catch (e) {
           return { to: exam, title: `${exam.toUpperCase()} PYQ`, description: `Coming soon...`, icon: iconMap[exam.toUpperCase() as keyof typeof iconMap] || <GATEIcon />, comingSoon: true };
